@@ -1,0 +1,10 @@
+commit b3048cbb0f67acef96adee37f2cfbb6d44f8ca9a
+tree c9ae15f6d20347cb82db857d28ca2ab29558c41b
+parent b794da65661805828320849b2770bf360da18391
+author Kalisha Narine <kalisha@medullan.com> 1401893205 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1401893205 -0400
+
+    use restassured
+
+:100644 100644 eee131e03297eb5cf827107c089168983d139f6a e17a42a4ce7128283434d0f4a06e19d9862afaa8 M	pom.xml
+:000000 100644 0000000000000000000000000000000000000000 10e3a9079b4814bae1fe149c0ced0a6f1cf24760 A	src/main/java/com/javahash/spring/test/HelloWorldControllerTest.java

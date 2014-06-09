@@ -1,0 +1,9 @@
+commit 51ac5ecab22081367b67ba93706c1fd3c0108073
+tree f98e31dc3b22c07c0e7208a74708aa22cb9345c1
+parent 34ad03ec47dbc5ede05e9871661b288766b9e9c9
+author Kalisha Narine <kalisha@medullan.com> 1402340862 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402340862 -0400
+
+    switch to ssh
+
+:100644 100644 892e91a120f762c31e4402a98947703afef25ea8 d7848894ade73c3e9f4739f3e35b9b3b2cc1b70c M	pom.xml

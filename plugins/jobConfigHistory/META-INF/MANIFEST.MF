@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: sbrausch
+Build-Jdk: 1.7.0_40
+Extension-Name: jobConfigHistory
+Specification-Title: Saves copies of job and system configurations.
+Implementation-Title: jobConfigHistory
+Implementation-Version: 2.6
+Plugin-Class: hudson.plugins.jobConfigHistory.JobConfigHistory
+Group-Id: org.jenkins-ci.plugins
+Short-Name: jobConfigHistory
+Long-Name: Jenkins Job Configuration History Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/JobConfigHistory+Plugin
+Plugin-Version: 2.6
+Hudson-Version: 1.532.2
+Jenkins-Version: 1.532.2
+Plugin-Dependencies: cloudbees-folder:4.1;resolution:=optional,maven-p
+ lugin:1.532
+Plugin-Developers: Stefan Brausch:stefanbrausch:stefan.brausch@1und1.d
+ e,Mirko Friedenhagen:mfriedenhagen:mfriedenhagen@gmail.com,Kathi Stut
+ z:kstutz:kathi.stutz@1und1.de,Yordan Boev:boev:iordan.boev@gmail.com
+

@@ -1,0 +1,9 @@
+commit 67cef80f08455c3a7facc3ab93c546e39de98fbd
+tree 42a9cd06e0ce942bbfecbeb254fe669445bd932f
+parent c4cbb7c7c046ce23c64e7ea4913a096116897a80
+author Kalisha Narine <kalisha@medullan.com> 1402329766 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402329766 -0400
+
+    add maven release plugin
+
+:100644 100644 a609d1b23549a35054323b63dedc1d8a2f2abb61 3cd0e29b2140a335cdfb5de1f54aafac5d34f814 M	pom.xml

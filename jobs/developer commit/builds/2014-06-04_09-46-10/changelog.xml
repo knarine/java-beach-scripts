@@ -1,0 +1,9 @@
+commit b794da65661805828320849b2770bf360da18391
+tree b4643097561b70918e4a0e08cc0fe468258f55fb
+parent 0cf644c4e8a5acf0fa704d70e655b6b5cc6147a5
+author Kalisha Narine <kalisha@medullan.com> 1401889517 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1401889517 -0400
+
+    US222: TId: TA135, status: In-progress, Actuals: 1.5, ToDo: .5, added toggle for new functionality
+
+:100644 100644 d53bd5c0532c9809b1ce83c086c922e53b662a51 387fc83147e58eadc5bd7355fb71a4c46654d5d0 M	src/main/java/com/javahash/spring/controller/HelloWorldController.java

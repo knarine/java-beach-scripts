@@ -1,0 +1,16 @@
+Started by an SCM change
+Building in workspace C:\Program Files\Jenkins\jobs\ dev-integration -  Compile, Static Analysis, Unit Tests\workspace
+ > C:\Program Files\Git\bin\git.exe rev-parse --is-inside-work-tree
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/knarine/java-beach.git
+Fetching upstream changes from https://github.com/knarine/java-beach.git
+ > C:\Program Files\Git\bin\git.exe --version
+using .gitcredentials to set credentials
+ > C:\Program Files\Git\bin\git.exe config --local credential.helper store --file=\"C:\Windows\TEMP\git1560604629509380762.credentials\"
+ > C:\Program Files\Git\bin\git.exe fetch --tags --progress https://github.com/knarine/java-beach.git +refs/heads/*:refs/remotes/origin/*
+ > C:\Program Files\Git\bin\git.exe config --local --remove-section credential
+ > C:\Program Files\Git\bin\git.exe rev-parse "origin/integration^{commit}"
+ > C:\Program Files\Git\bin\git.exe rev-parse "origin/integration^{commit}"
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mBuild did not succeed and the project is configured to only push after a successful build, so no pushing will occur.
+Finished: FAILURE

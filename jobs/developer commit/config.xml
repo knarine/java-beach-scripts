@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<maven2-moduleset plugin="maven-plugin@2.3">
+  <actions/>
+  <description>Responsible for delivering bad or good news for the development team. &#xd;
+Code is broken! Functions include code compilation, run suite of unit tests and code analysis.&#xd;
+On success, the code changes are merged to the stable development branch and the war file is packaged.</description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.plugins.git.GitSCM" plugin="git@2.2.1">
+    <configVersion>2</configVersion>
+    <userRemoteConfigs>
+      <hudson.plugins.git.UserRemoteConfig>
+        <url>https://github.com/knarine/java-beach.git</url>
+        <credentialsId>f0d39c1c-2134-4011-acfd-f91da146c917</credentialsId>
+      </hudson.plugins.git.UserRemoteConfig>
+    </userRemoteConfigs>
+    <branches>
+      <hudson.plugins.git.BranchSpec>
+        <name>*/dev-integration</name>
+      </hudson.plugins.git.BranchSpec>
+    </branches>
+    <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+    <submoduleCfg class="list"/>
+    <extensions/>
+  </scm>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers>
+    <hudson.triggers.SCMTrigger>
+      <spec>*/1 * * * *</spec>
+      <ignorePostCommitHooks>false</ignorePostCommitHooks>
+    </hudson.triggers.SCMTrigger>
+  </triggers>
+  <concurrentBuild>false</concurrentBuild>
+  <rootModule>
+    <groupId>com.javahash.web</groupId>
+    <artifactId>Spring4MVCHelloWorld</artifactId>
+  </rootModule>
+  <goals>clean deploy -X</goals>
+  <aggregatorStyleBuild>true</aggregatorStyleBuild>
+  <incrementalBuild>false</incrementalBuild>
+  <ignoreUpstremChanges>true</ignoreUpstremChanges>
+  <archivingDisabled>false</archivingDisabled>
+  <siteArchivingDisabled>false</siteArchivingDisabled>
+  <resolveDependencies>false</resolveDependencies>
+  <processPlugins>false</processPlugins>
+  <mavenValidationLevel>-1</mavenValidationLevel>
+  <runHeadless>false</runHeadless>
+  <disableTriggerDownstreamProjects>false</disableTriggerDownstreamProjects>
+  <settings class="jenkins.mvn.DefaultSettingsProvider"/>
+  <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
+  <reporters/>
+  <publishers>
+    <hudson.tasks.ArtifactArchiver>
+      <artifacts>target/*.war</artifacts>
+      <latestOnly>false</latestOnly>
+      <allowEmptyArchive>false</allowEmptyArchive>
+    </hudson.tasks.ArtifactArchiver>
+    <hudson.tasks.BuildTrigger>
+      <childProjects>deploy for automated acceptance testing</childProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </hudson.tasks.BuildTrigger>
+    <hudson.plugins.git.GitPublisher plugin="git@2.2.1">
+      <configVersion>2</configVersion>
+      <pushMerge>true</pushMerge>
+      <pushOnlyIfSuccess>true</pushOnlyIfSuccess>
+      <branchesToPush>
+        <hudson.plugins.git.GitPublisher_-BranchToPush>
+          <targetRepoName>origin</targetRepoName>
+          <branchName>develop</branchName>
+        </hudson.plugins.git.GitPublisher_-BranchToPush>
+      </branchesToPush>
+    </hudson.plugins.git.GitPublisher>
+  </publishers>
+  <buildWrappers/>
+  <prebuilders>
+    <hudson.tasks.Maven>
+      <targets>versions:set -DnewVersion=$BUILD_NUMBER</targets>
+      <mavenName>Test</mavenName>
+      <usePrivateRepository>false</usePrivateRepository>
+      <settings class="jenkins.mvn.DefaultSettingsProvider"/>
+      <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
+    </hudson.tasks.Maven>
+  </prebuilders>
+  <postbuilders/>
+  <runPostStepsIfResult>
+    <name>FAILURE</name>
+    <ordinal>2</ordinal>
+    <color>RED</color>
+    <completeBuild>true</completeBuild>
+  </runPostStepsIfResult>
+</maven2-moduleset>

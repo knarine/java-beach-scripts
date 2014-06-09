@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenModuleSetBuild plugin="maven-plugin@2.3">
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UserIdCause/>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.plugins.git.util.BuildData plugin="git@2.2.1">
+      <buildsByBranchName>
+        <entry>
+          <string>origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@1.9.1">
+              <sha1>82848334cb599eabbb6ebda5feb52b750c38de54</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>3</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <scmName></scmName>
+      <remoteUrls>
+        <string>https://github.com/knarine/java-beach.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@2.2.1">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>C:\Program Files\Jenkins\jobs\Java-Beach-Build\workspace</ws>
+    </hudson.plugins.git.GitTagAction>
+    <hudson.scm.SCMRevisionState_-None/>
+    <hudson.maven.reporters.MavenAggregatedArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+    </hudson.maven.reporters.MavenAggregatedArtifactRecord>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>org.springframework:spring-context-4.0.1.RELEASE.jar</string>
+          <string>b9f6eedfad6ba3d4356c6e0f91fbdf90</string>
+        </entry>
+        <entry>
+          <string>aopalliance:aopalliance-1.0.jar</string>
+          <string>04177054e180d09e3998808efa0401c7</string>
+        </entry>
+        <entry>
+          <string>org.springframework:spring-core-4.0.1.RELEASE.jar</string>
+          <string>fa3968f2433a57492296cbb39a034f51</string>
+        </entry>
+        <entry>
+          <string>commons-logging:commons-logging-1.1.1.jar</string>
+          <string>ed448347fc0104034aa14c8189bf37de</string>
+        </entry>
+        <entry>
+          <string>org.springframework:spring-beans-4.0.1.RELEASE.jar</string>
+          <string>3d33f492681074e0b625eb8a43f8bf3a</string>
+        </entry>
+        <entry>
+          <string>asm:asm-3.3.1.jar</string>
+          <string>1ad1e8959324b0f680b8e62406955642</string>
+        </entry>
+        <entry>
+          <string>org.springframework:spring-aop-4.0.1.RELEASE.jar</string>
+          <string>8e4186dc389f20689542976ebbec8a89</string>
+        </entry>
+        <entry>
+          <string>org.springframework:spring-expression-4.0.1.RELEASE.jar</string>
+          <string>54cb4fdcd7587038aede9e2ab856382e</string>
+        </entry>
+        <entry>
+          <string>javax.servlet:javax.servlet-api-3.0.1.jar</string>
+          <string>3ef236ac4c24850cd54abff60be25f35</string>
+        </entry>
+        <entry>
+          <string>org.springframework:spring-web-4.0.1.RELEASE.jar</string>
+          <string>9b8f3716732494e1b629dd2ce5e7b77c</string>
+        </entry>
+        <entry>
+          <string>cglib:cglib-2.2.2.jar</string>
+          <string>b3f681be48fce094cf01a045f5bdca6f</string>
+        </entry>
+        <entry>
+          <string>org.springframework:spring-webmvc-4.0.1.RELEASE.jar</string>
+          <string>7bdc044b65e3de5032de4e30f4bd8d2d</string>
+        </entry>
+        <entry>
+          <string>com.javahash.web:Spring4MVCHelloWorld:pom.xml</string>
+          <string>56319d0da54ff199869cbad94f5861d0</string>
+        </entry>
+        <entry>
+          <string>jstl:jstl-1.2.jar</string>
+          <string>51e15f798e69358cb893e38c50596b9b</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <number>3</number>
+  <startTime>1401820754070</startTime>
+  <result>FAILURE</result>
+  <duration>62940</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Program Files\Jenkins\jobs\Java-Beach-Build\workspace</workspace>
+  <hudsonVersion>1.566</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@2.2.1">
+    <authorOrCommitter>false</authorOrCommitter>
+  </scm>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+  <mavenVersionUsed>3.2.1</mavenVersionUsed>
+</hudson.maven.MavenModuleSetBuild>

@@ -1,0 +1,11 @@
+Started on Jun 9, 2014 3:31:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 51ac5ecab22081367b67ba93706c1fd3c0108073 (origin/dev-integration)
+using .gitcredentials to set credentials
+ > C:\Program Files\Git\bin\git.exe --version
+ > C:\Program Files\Git\bin\git.exe init C:\Windows\TEMP\hudson8770928029620271769tmp
+ > C:\Program Files\Git\bin\git.exe config --local credential.helper store --file=\"C:\Windows\TEMP\git508677007881443237.credentials\"
+ > C:\Program Files\Git\bin\git.exe ls-remote -h https://github.com/knarine/java-beach.git dev-integration
+ > C:\Program Files\Git\bin\git.exe config --local --remove-section credential
+Done. Took 2.5 sec
+Changes found

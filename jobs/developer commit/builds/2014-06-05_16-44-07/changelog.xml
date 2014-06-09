@@ -1,0 +1,11 @@
+commit 5ae0aa6efe4ebc0ab06aa15560f0c02ee5231dc5
+tree 4597fd8af1d10e73fd134ff0ac3b5d00aa69936c
+parent 262a53c56dace3c126c8993a95392becb9607a0e
+author Kalisha Narine <kalisha@medullan.com> 1402001031 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402001031 -0400
+
+    adding unit test
+
+:100644 100644 45d7a5bb54f0be1c05d25d7f3625d871b34d9c89 c09b5f6bfd557153487dea2e3c60b671e89f6a5c M	.classpath
+:100644 100644 2e88087bbf11d00f39126d720594854bf951d2c5 a609d1b23549a35054323b63dedc1d8a2f2abb61 M	pom.xml
+:000000 100644 0000000000000000000000000000000000000000 0ff69e4e8fd3511222df5e1085e4f4c8badd459d A	src/test/java/com/javahash/spring/controller/HelloControllerTest.java

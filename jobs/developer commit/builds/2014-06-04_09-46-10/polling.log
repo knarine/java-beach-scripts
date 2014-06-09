@@ -1,0 +1,11 @@
+Started on Jun 4, 2014 9:46:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision 0cf644c4e8a5acf0fa704d70e655b6b5cc6147a5 (origin/master)
+using .gitcredentials to set credentials
+ > C:\Program Files\Git\bin\git.exe --version
+ > C:\Program Files\Git\bin\git.exe init C:\Windows\TEMP\hudson266347774391646721tmp
+ > C:\Program Files\Git\bin\git.exe config --local credential.helper store --file=\"C:\Windows\TEMP\git8086325808135779665.credentials\"
+ > C:\Program Files\Git\bin\git.exe ls-remote -h https://github.com/knarine/java-beach.git master
+ > C:\Program Files\Git\bin\git.exe config --local --remove-section credential
+Done. Took 1.6 sec
+Changes found

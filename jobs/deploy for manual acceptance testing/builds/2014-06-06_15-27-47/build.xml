@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UpstreamCause>
+          <upstreamProject>automated acceptance tests</upstreamProject>
+          <upstreamUrl>job/automated%20acceptance%20tests/</upstreamUrl>
+          <upstreamBuild>6</upstreamBuild>
+          <upstreamCauses>
+            <hudson.model.Cause_-UpstreamCause>
+              <upstreamProject>deploy for automated acceptance testing</upstreamProject>
+              <upstreamUrl>job/deploy%20for%20automated%20acceptance%20testing/</upstreamUrl>
+              <upstreamBuild>4</upstreamBuild>
+              <upstreamCauses>
+                <hudson.model.Cause_-UpstreamCause>
+                  <upstreamProject>developer commit</upstreamProject>
+                  <upstreamUrl>job/developer%20commit/</upstreamUrl>
+                  <upstreamBuild>37</upstreamBuild>
+                  <upstreamCauses>
+                    <hudson.model.Cause_-UserIdCause>
+                      <userId>kalisha</userId>
+                    </hudson.model.Cause_-UserIdCause>
+                  </upstreamCauses>
+                </hudson.model.Cause_-UpstreamCause>
+              </upstreamCauses>
+            </hudson.model.Cause_-UpstreamCause>
+          </upstreamCauses>
+        </hudson.model.Cause_-UpstreamCause>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.plugins.copyartifact.CopyArtifact_-EnvAction plugin="copyartifact@1.30"/>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>Spring4MVCHelloWorld-1.0-SNAPSHOT.pom</string>
+          <string>766d0ceabf9981de4291a4879faee537</string>
+        </entry>
+        <entry>
+          <string>Spring4MVCHelloWorld-1.0-SNAPSHOT.war</string>
+          <string>77f2c0290a17a034bb7b5852e4b799d9</string>
+        </entry>
+        <entry>
+          <string>Spring4MVCHelloWorld.war</string>
+          <string>77f2c0290a17a034bb7b5852e4b799d9</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <number>4</number>
+  <startTime>1402082867520</startTime>
+  <result>SUCCESS</result>
+  <duration>9493</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Program Files\Jenkins\jobs\deploy for manual acceptance testing\workspace</workspace>
+  <hudsonVersion>1.566</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

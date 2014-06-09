@@ -1,0 +1,28 @@
+Started by user [8mha:AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL97MSczOKMRADnlF86wgAAAA==[0mKalisha
+Building in workspace C:\Program Files\Jenkins\jobs\automated acceptance tests\workspace
+ > C:\Program Files\Git\bin\git.exe rev-parse --is-inside-work-tree
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/knarine/java-beach.git
+Fetching upstream changes from https://github.com/knarine/java-beach.git
+ > C:\Program Files\Git\bin\git.exe --version
+using .gitcredentials to set credentials
+ > C:\Program Files\Git\bin\git.exe config --local credential.helper store --file=\"C:\Windows\TEMP\git278535565739721423.credentials\"
+ > C:\Program Files\Git\bin\git.exe fetch --tags --progress https://github.com/knarine/java-beach.git +refs/heads/*:refs/remotes/origin/*
+ > C:\Program Files\Git\bin\git.exe config --local --remove-section credential
+ > C:\Program Files\Git\bin\git.exe rev-parse "origin/master^{commit}"
+Checking out Revision 262a53c56dace3c126c8993a95392becb9607a0e (origin/master)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout
+ > C:\Program Files\Git\bin\git.exe checkout -f 262a53c56dace3c126c8993a95392becb9607a0e
+ > C:\Program Files\Git\bin\git.exe rev-list 262a53c56dace3c126c8993a95392becb9607a0e
+ > C:\Program Files\Git\bin\git.exe tag -l jenkins-automated_acceptance_tests-5
+ > C:\Program Files\Git\bin\git.exe tag -a -f -m Jenkins Build #5 jenkins-automated_acceptance_tests-5-SUCCESS
+Pushing HEAD to branch staging at repo origin
+ > C:\Program Files\Git\bin\git.exe config --get remote.origin.url
+using .gitcredentials to set credentials
+ > C:\Program Files\Git\bin\git.exe --version
+ > C:\Program Files\Git\bin\git.exe config --local credential.helper store --file=\"C:\Windows\TEMP\git4065031484268395718.credentials\"
+ > C:\Program Files\Git\bin\git.exe push https://github.com/knarine/java-beach.git HEAD:staging
+ > C:\Program Files\Git\bin\git.exe config --local --remove-section credential
+Warning: you have no plugins providing access control for builds, so falling back to legacy behavior of permitting any downstream builds to be triggered
+Triggering a new build of [8mha:AAAAuR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyVEgYj/az8JP2U1IKc/EpVI4O0/CIgmZuYV5qYA2QkJienFpQk5iWnAjklqcUlQDv0AXsKld/nAAAA[0mdeploy for manual acceptance testing #3
+Finished: SUCCESS

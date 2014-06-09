@@ -1,0 +1,9 @@
+commit 34ad03ec47dbc5ede05e9871661b288766b9e9c9
+tree 6fe4e8734241b66f5fc8a04f638a13360abd6831
+parent 0f4d9896e62ed66d816dfece04bcbf271b9ef1bf
+author Kalisha Narine <kalisha@medullan.com> 1402340376 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402340376 -0400
+
+    switch to non artifacts branch
+
+:100644 100644 3cd0e29b2140a335cdfb5de1f54aafac5d34f814 892e91a120f762c31e4402a98947703afef25ea8 M	pom.xml

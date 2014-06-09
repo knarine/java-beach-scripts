@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UserIdCause>
+          <userId>kalisha</userId>
+        </hudson.model.Cause_-UserIdCause>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.plugins.copyartifact.CopyArtifact_-EnvAction plugin="copyartifact@1.30"/>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>Spring4MVCHelloWorld-1.0-SNAPSHOT.pom</string>
+          <string>766d0ceabf9981de4291a4879faee537</string>
+        </entry>
+        <entry>
+          <string>Spring4MVCHelloWorld-1.0-SNAPSHOT.war</string>
+          <string>b4fe67f7c5d5b7aaa107fc6ab40bfe09</string>
+        </entry>
+        <entry>
+          <string>Spring4MVCHelloWorld.war</string>
+          <string>b4fe67f7c5d5b7aaa107fc6ab40bfe09</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <number>1</number>
+  <startTime>1402081669680</startTime>
+  <result>SUCCESS</result>
+  <duration>8862</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Program Files\Jenkins\jobs\deploy for manual acceptance testing\workspace</workspace>
+  <hudsonVersion>1.566</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>
