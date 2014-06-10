@@ -26,7 +26,7 @@
 #  class { 'apt': }
 
 class apt(
-  $always_apt_update    = false,
+  $always_apt_update    = true,
   $disable_keys         = undef,
   $proxy_host           = undef,
   $proxy_port           = '8080',

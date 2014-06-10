@@ -38,7 +38,7 @@
 # Sample Usage:
 #
 class java(
-  $distribution          = 'jdk',
+  $distribution          = 'jre',
   $version               = 'present',
   $package               = undef,
   $java_alternative      = undef,
