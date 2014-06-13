@@ -1,0 +1,211 @@
+commit bc9250e1cc21bc1bcb5aef1ddc42f768a900b931
+tree 0203b5ef83e2e80b602e6a29243eded8f68edaa2
+parent 061e0bd6c6d4b3505865d1ccc29969f230595451
+author Kalisha Narine <kalisha@medullan.com> 1402358925 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402358925 -0400
+
+    change version
+
+:100644 100644 bd26e01b18d4fe935269e36e5529f2365337ca13 0cd803b637494e118769a6470445d72e7653a129 M	pom.xml
+
+commit 061e0bd6c6d4b3505865d1ccc29969f230595451
+tree 54c1d68e19b182e863a8789875070644563805fd
+parent 0caac1aaba54e9b21d4c55308a6a7750cb343660
+author Kalisha Narine <kalisha@medullan.com> 1402358690 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402358690 -0400
+
+    merge
+
+:100644 100644 3f24f4b0dd6bf4fd1f01b9b8c9a38b68977757ac bd26e01b18d4fe935269e36e5529f2365337ca13 M	pom.xml
+
+commit 0caac1aaba54e9b21d4c55308a6a7750cb343660
+tree 1605308377eeb1b584077cbbddd9af12914c5f50
+parent fa6db542d1693220d04a4318584798267d14a9f8
+author Kalisha Narine <kalisha@medullan.com> 1402357574 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402357574 -0400
+
+    push to git
+
+:100644 100644 6f5e1ed4e2f53904abaddcd5ea7b830cf5de5d95 3f24f4b0dd6bf4fd1f01b9b8c9a38b68977757ac M	pom.xml
+
+commit fa6db542d1693220d04a4318584798267d14a9f8
+tree f48fe317911880156ddfef25ce852d62ca5841bf
+parent 4092bd5751dee69c93a952043c1364e96b5f088f
+author Kalisha Narine <kalisha@medullan.com> 1402354050 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402354050 -0400
+
+    add artifacts
+
+:100644 100644 812fff91bd1aecdcefdf9be14363eab700316beb 6f5e1ed4e2f53904abaddcd5ea7b830cf5de5d95 M	pom.xml
+
+commit 4092bd5751dee69c93a952043c1364e96b5f088f
+tree 51127292c96a6849394f9488f0333e571489ccd6
+parent 97257805d40825f28c82737686d714b96c794e62
+author Kalisha Narine <kalisha@medullan.com> 1402349575 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402349575 -0400
+
+    change to repo
+
+:100644 100644 966f2550f62d003d4840f8cf0894b03072a9fd98 812fff91bd1aecdcefdf9be14363eab700316beb M	pom.xml
+
+commit 97257805d40825f28c82737686d714b96c794e62
+tree f241290db302e7f220498bb5010f9edb21455bc9
+parent cb52a2e9043169f5b32b5c3da2477cbc924934dd
+author Kalisha Narine <kalisha@medullan.com> 1402349345 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402349345 -0400
+
+    change repo
+
+:100644 100644 592a362de991b229011577f5679d5296e24fbd5b 966f2550f62d003d4840f8cf0894b03072a9fd98 M	pom.xml
+
+commit cb52a2e9043169f5b32b5c3da2477cbc924934dd
+tree 4f94a7fb9e7fad2ab5b5fdc8253a2494684a87ff
+parent ba086d2023a518847d4bf3721e69f38b79c85915
+author Kalisha Narine <kalisha@medullan.com> 1402349085 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402349085 -0400
+
+    use snapshots folder
+
+:100644 100644 d83e60c689fb32c47f74f7faa5dc60a426f3894a 592a362de991b229011577f5679d5296e24fbd5b M	pom.xml
+
+commit ba086d2023a518847d4bf3721e69f38b79c85915
+tree a3fe82f8d949ad414e09445b9e947d8642b44b3b
+parent 5512dbe6d085fb3fae66a80459fa6715c09c89de
+author Kalisha Narine <kalisha@medullan.com> 1402343837 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402343837 -0400
+
+    create new branch
+
+:100644 100644 23f6f6f88c31d0093bc61df36a070da16ca16922 d83e60c689fb32c47f74f7faa5dc60a426f3894a M	pom.xml
+
+commit 5512dbe6d085fb3fae66a80459fa6715c09c89de
+tree 2709cc93b7bf9d2530d98049b707be2230497209
+parent c4b16567a8e24e3bb278c70ee6867c08d91a2346
+author Kalisha Narine <kalisha@medullan.com> 1402342965 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402342965 -0400
+
+    add branch
+
+:100644 100644 e3a42d3894cfc51d4c24a2f77fbacdc79d59f430 23f6f6f88c31d0093bc61df36a070da16ca16922 M	pom.xml
+
+commit c4b16567a8e24e3bb278c70ee6867c08d91a2346
+tree 8f818e176dd5bb1012468a44557bc794005e8c48
+parent 56402f565116e598eaf055bd19dd21c3dd93fe46
+author Kalisha Narine <kalisha@medullan.com> 1402342407 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402342407 -0400
+
+    update
+
+:100644 100644 a02b2180e32caff55720ed6bb2a4af3b9c2e5615 e3a42d3894cfc51d4c24a2f77fbacdc79d59f430 M	pom.xml
+
+commit 56402f565116e598eaf055bd19dd21c3dd93fe46
+tree c5d3afdf060306f53ba388d204aa500cb4ee780c
+parent 51ac5ecab22081367b67ba93706c1fd3c0108073
+author Kalisha Narine <kalisha@medullan.com> 1402342212 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402342212 -0400
+
+    switch to url
+
+:100644 100644 d7848894ade73c3e9f4739f3e35b9b3b2cc1b70c a02b2180e32caff55720ed6bb2a4af3b9c2e5615 M	pom.xml
+
+commit 51ac5ecab22081367b67ba93706c1fd3c0108073
+tree f98e31dc3b22c07c0e7208a74708aa22cb9345c1
+parent 34ad03ec47dbc5ede05e9871661b288766b9e9c9
+author Kalisha Narine <kalisha@medullan.com> 1402340862 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402340862 -0400
+
+    switch to ssh
+
+:100644 100644 892e91a120f762c31e4402a98947703afef25ea8 d7848894ade73c3e9f4739f3e35b9b3b2cc1b70c M	pom.xml
+
+commit 34ad03ec47dbc5ede05e9871661b288766b9e9c9
+tree 6fe4e8734241b66f5fc8a04f638a13360abd6831
+parent 0f4d9896e62ed66d816dfece04bcbf271b9ef1bf
+author Kalisha Narine <kalisha@medullan.com> 1402340376 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402340376 -0400
+
+    switch to non artifacts branch
+
+:100644 100644 3cd0e29b2140a335cdfb5de1f54aafac5d34f814 892e91a120f762c31e4402a98947703afef25ea8 M	pom.xml
+
+commit 0f4d9896e62ed66d816dfece04bcbf271b9ef1bf
+tree 42a9cd06e0ce942bbfecbeb254fe669445bd932f
+parent 006d45462fb22a53ca5dc8c2e9e0eb3cf02822a5
+author Kalisha Narine <kalisha@medullan.com> 1402330873 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402330873 -0400
+
+    revert
+
+:100644 100644 bf931f0baf0dc4bc09aadf809aa3dff748e5a844 3cd0e29b2140a335cdfb5de1f54aafac5d34f814 M	pom.xml
+
+commit 006d45462fb22a53ca5dc8c2e9e0eb3cf02822a5
+tree 6ef3e41733ef86b97e371136f003f0f774696c8a
+parent 67cef80f08455c3a7facc3ab93c546e39de98fbd
+author Kalisha Narine <kalisha@medullan.com> 1402330570 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402330570 -0400
+
+    non secured
+
+:100644 100644 3cd0e29b2140a335cdfb5de1f54aafac5d34f814 bf931f0baf0dc4bc09aadf809aa3dff748e5a844 M	pom.xml
+
+commit 67cef80f08455c3a7facc3ab93c546e39de98fbd
+tree 42a9cd06e0ce942bbfecbeb254fe669445bd932f
+parent c4cbb7c7c046ce23c64e7ea4913a096116897a80
+author Kalisha Narine <kalisha@medullan.com> 1402329766 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402329766 -0400
+
+    add maven release plugin
+
+:100644 100644 a609d1b23549a35054323b63dedc1d8a2f2abb61 3cd0e29b2140a335cdfb5de1f54aafac5d34f814 M	pom.xml
+
+commit c4cbb7c7c046ce23c64e7ea4913a096116897a80
+tree 160f70743f8eb89276a6886dc869eef2d9ef4b35
+parent 7b4d830578a403015990fc945c6ffc05239ef9ae
+author Kalisha Narine <kalisha@medullan.com> 1402076556 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402076556 -0400
+
+    test hook
+
+:100644 100644 c60a3f304027b96ec21a9f217e764a3bd1015e33 73808acdb208564bb7a01c7419227d6f638cade3 M	src/test/java/com/javahash/spring/controller/HelloControllerTest.java
+
+commit 7b4d830578a403015990fc945c6ffc05239ef9ae
+tree 5eb368c4be5e6e0ab4c936dc1747b7b146dbff30
+parent dbdc82c053ec6b22db24dde834c1c641623efb11
+author Kalisha Narine <kalisha@medullan.com> 1402074733 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402074733 -0400
+
+    test git hook
+
+:100644 100644 73808acdb208564bb7a01c7419227d6f638cade3 c60a3f304027b96ec21a9f217e764a3bd1015e33 M	src/test/java/com/javahash/spring/controller/HelloControllerTest.java
+
+commit dbdc82c053ec6b22db24dde834c1c641623efb11
+tree 160f70743f8eb89276a6886dc869eef2d9ef4b35
+parent d2b3fa2e07304a086360fc8017e1335c3c9e223e
+author Kalisha Narine <kalisha@medullan.com> 1402074599 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402074599 -0400
+
+    check git hook
+
+:100644 100644 33c0d2e11cd078cfc038436b663009f7f6ea2645 73808acdb208564bb7a01c7419227d6f638cade3 M	src/test/java/com/javahash/spring/controller/HelloControllerTest.java
+
+commit d2b3fa2e07304a086360fc8017e1335c3c9e223e
+tree 42b61d6c59e2e9f824a57d1ee368365c360ee43e
+parent 5ae0aa6efe4ebc0ab06aa15560f0c02ee5231dc5
+author Kalisha Narine <kalisha@medullan.com> 1402001280 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402001280 -0400
+
+    update comments
+
+:100644 100644 0ff69e4e8fd3511222df5e1085e4f4c8badd459d 33c0d2e11cd078cfc038436b663009f7f6ea2645 M	src/test/java/com/javahash/spring/controller/HelloControllerTest.java
+
+commit 5ae0aa6efe4ebc0ab06aa15560f0c02ee5231dc5
+tree 4597fd8af1d10e73fd134ff0ac3b5d00aa69936c
+parent 262a53c56dace3c126c8993a95392becb9607a0e
+author Kalisha Narine <kalisha@medullan.com> 1402001031 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402001031 -0400
+
+    adding unit test
+
+:100644 100644 45d7a5bb54f0be1c05d25d7f3625d871b34d9c89 c09b5f6bfd557153487dea2e3c60b671e89f6a5c M	.classpath
+:100644 100644 2e88087bbf11d00f39126d720594854bf951d2c5 a609d1b23549a35054323b63dedc1d8a2f2abb61 M	pom.xml
+:000000 100644 0000000000000000000000000000000000000000 0ff69e4e8fd3511222df5e1085e4f4c8badd459d A	src/test/java/com/javahash/spring/controller/HelloControllerTest.java

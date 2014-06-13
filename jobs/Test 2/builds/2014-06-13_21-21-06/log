@@ -1,0 +1,15 @@
+GitHub pull request #6 of commit 1347246b0401ce4a0719ef89c421fa233904ff95 automatically merged.
+Building in workspace /var/lib/jenkins/jobs/Test 2/workspace
+ > git rev-parse --is-inside-work-tree
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/knarine/java-beach.git
+Fetching upstream changes from https://github.com/knarine/java-beach.git
+ > git --version
+ > git fetch --tags --progress https://github.com/knarine/java-beach.git +refs/pull/*:refs/remotes/origin/pr/*
+ > git rev-parse origin/pr/6/merge^{commit}
+Checking out Revision 68b7086c3305a619e027793cb95b6576e00fc10e (detached)
+ > git config core.sparsecheckout
+ > git checkout -f 68b7086c3305a619e027793cb95b6576e00fc10e
+First time build. Skipping changelog.
+Setting commit status on GitHub for https://github.com/knarine/java-beach/commit/68b7086c3305a619e027793cb95b6576e00fc10e
+Finished: SUCCESS

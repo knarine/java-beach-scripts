@@ -1,0 +1,77 @@
+Started by user [8mha:AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mAdministrator
+Building in workspace /var/lib/jenkins/jobs/new developer commit/workspace
+
+Deleting project workspace... Cloning the remote Git repository
+Cloning repository https://github.com/knarine/java-beach
+ > git init /var/lib/jenkins/jobs/new developer commit/workspace
+Fetching upstream changes from https://github.com/knarine/java-beach
+ > git --version
+using .gitcredentials to set credentials
+ > git config --local credential.helper store --file=/tmp/git8372918732716915416.credentials
+ > git fetch --tags --progress https://github.com/knarine/java-beach +refs/heads/*:refs/remotes/origin/*
+ > git config --local --remove-section credential
+ > git config remote.origin.url https://github.com/knarine/java-beach
+ > git config remote.origin.fetch +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/knarine/java-beach
+Fetching upstream changes from https://github.com/knarine/java-beach
+using .gitcredentials to set credentials
+ > git config --local credential.helper store --file=/tmp/git9124640833563176560.credentials
+ > git fetch --tags --progress https://github.com/knarine/java-beach +refs/heads/*:refs/remotes/origin/*
+ > git config --local --remove-section credential
+ > git rev-parse origin/dev-integration^{commit}
+Checking out Revision 9639b69eca1e053ece29c17d19c5f5ccb7ee0a3a (origin/dev-integration)
+ > git config core.sparsecheckout
+ > git checkout -f 9639b69eca1e053ece29c17d19c5f5ccb7ee0a3a
+First time build. Skipping changelog.
+Unpacking http://archive.apache.org/dist/maven/binaries/apache-maven-3.0-bin.zip to /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven_Older on Jenkins
+[workspace] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven_Older/bin/mvn versions:set -DnewVersion=1
+[INFO] Scanning for projects...
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.3.1/maven-install-plugin-2.3.1.jar
+4 KB   8 KB   12 KB   16 KB   20 KB   23 KB           Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.3.1/maven-install-plugin-2.3.1.jar (23 KB at 191.6 KB/sec)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.4.3/maven-resources-plugin-2.4.3.jar
+4 KB    8 KB   12 KB   16 KB   20 KB   24 KB           Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.4.3/maven-resources-plugin-2.4.3.jar (24 KB at 384.7 KB/sec)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.5/maven-surefire-plugin-2.5.jar
+4 KB    8 KB   12 KB   16 KB   20 KB   24 KB   28 KB   32 KB   33 KB           Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.5/maven-surefire-plugin-2.5.jar (33 KB at 394.0 KB/sec)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/2.3.2/maven-compiler-plugin-2.3.2.jar
+4 KB    8 KB   12 KB   16 KB   20 KB   24 KB   28 KB   29 KB           Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/2.3.2/maven-compiler-plugin-2.3.2.jar (29 KB at 838.0 KB/sec)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.1/maven-war-plugin-2.1.jar
+4 KB    7 KB   10 KB   14 KB   18 KB   18 KB   22 KB   26 KB   30 KB   34 KB   38 KB   42 KB   46 KB   50 KB   54 KB   58 KB   62 KB   66 KB   70 KB   74 KB   76 KB           Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.1/maven-war-plugin-2.1.jar (76 KB at 1423.9 KB/sec)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.4.1/maven-clean-plugin-2.4.1.jar
+4 KB    8 KB   12 KB   16 KB   20 KB   23 KB           Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.4.1/maven-clean-plugin-2.4.1.jar (23 KB at 919.9 KB/sec)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-site-plugin/2.0.1/maven-site-plugin-2.0.1.jar
+4 KB    8 KB   12 KB   16 KB   20 KB   24 KB   28 KB   32 KB   36 KB   40 KB   44 KB   48 KB   52 KB   56 KB   60 KB   64 KB   68 KB   72 KB   76 KB   79 KB           Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-site-plugin/2.0.1/maven-site-plugin-2.0.1.jar (79 KB at 1379.6 KB/sec)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.1/maven-dependency-plugin-2.1.jar
+4 KB    8 KB   12 KB   16 KB   20 KB   24 KB   28 KB   32 KB   36 KB   40 KB   44 KB   48 KB   52 KB   56 KB   60 KB   64 KB   68 KB   72 KB   76 KB   80 KB   84 KB   88 KB   92 KB   96 KB   100 KB   104 KB            Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.1/maven-dependency-plugin-2.1.jar (104 KB at 1328.2 KB/sec)
+Downloading: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.0/maven-release-plugin-2.0.jar
+4 KB     8 KB   12 KB   16 KB   20 KB   24 KB   28 KB   32 KB   36 KB   38 KB           Downloaded: http://repo1.maven.org/maven2/org/apache/maven/plugins/maven-release-plugin/2.0/maven-release-plugin-2.0.jar (38 KB at 1106.0 KB/sec)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring4MVCHelloWorld Maven Webapp 0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- versions-maven-plugin:2.1:set (default-cli) @ Spring4MVCHelloWorld ---
+[INFO] Searching for local aggregator root...
+[INFO] Local aggregation root: /var/lib/jenkins/jobs/new developer commit/workspace
+[INFO] Processing com.javahash.web:Spring4MVCHelloWorld
+[INFO]     Updating project com.javahash.web:Spring4MVCHelloWorld
+[INFO]         from version 0-SNAPSHOT to 1
+Props: {project.version=1, project.artifactId=Spring4MVCHelloWorld, project.groupId=com.javahash.web}
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.643s
+[INFO] Finished at: Wed Jun 11 16:17:23 UTC 2014
+[INFO] Final Memory: 7M/19M
+[INFO] ------------------------------------------------------------------------
+[workspace] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven_Older/bin/mvn -f pom.xml deploy checkstyle:checkstyle findbugs:findbugs cobertura:cobertura --settings C:\Users\kalisha\.m2\settings.xml
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Error executing Maven.
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] The specified user settings file does not exist: /var/lib/jenkins/jobs/new developer commit/workspace/C:\Users\kalisha\.m2\settings.xml
+Build step 'Invoke top-level Maven targets' marked build as failure
+Archiving artifacts
+[CHECKSTYLE] Skipping publisher since build result is FAILURE
+[FINDBUGS] Skipping publisher since build result is FAILURE
+Skipping Cobertura coverage report as build was not UNSTABLE or better ...
+Build did not succeed and the project is configured to only push after a successful build, so no pushing will occur.
+Warning: you have no plugins providing access control for builds, so falling back to legacy behavior of permitting any downstream builds to be triggered
+Finished: FAILURE

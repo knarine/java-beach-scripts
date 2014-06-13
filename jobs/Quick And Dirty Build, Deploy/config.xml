@@ -9,7 +9,7 @@
     <userRemoteConfigs>
       <hudson.plugins.git.UserRemoteConfig>
         <url>https://github.com/knarine/java-beach.git</url>
-        <credentialsId>f0d39c1c-2134-4011-acfd-f91da146c917</credentialsId>
+        <credentialsId>127688db-0594-4e56-852b-f89b9bebd5eb</credentialsId>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
     <branches>
@@ -49,13 +49,20 @@
   <disableTriggerDownstreamProjects>false</disableTriggerDownstreamProjects>
   <settings class="jenkins.mvn.DefaultSettingsProvider"/>
   <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
-  <reporters/>
+  <reporters>
+    <hudson.maven.reporters.MavenMailer>
+      <recipients>mjoseph@medullan.com, kalisha@medullan.com, sdeonarine@medullan.com, mchickoree@medullan.com, rnorris@medullan.com</recipients>
+      <dontNotifyEveryUnstableBuild>false</dontNotifyEveryUnstableBuild>
+      <sendToIndividuals>false</sendToIndividuals>
+      <perModuleEmail>true</perModuleEmail>
+    </hudson.maven.reporters.MavenMailer>
+  </reporters>
   <publishers>
     <hudson.plugins.deploy.DeployPublisher plugin="deploy@1.9">
       <adapter class="hudson.plugins.deploy.tomcat.Tomcat7xAdapter">
         <userName>manager</userName>
         <passwordScrambled>cEBzc3cwcmQ=</passwordScrambled>
-        <url>http://localhost:9999/</url>
+        <url>http://208.94.38.210:8080/</url>
       </adapter>
       <contextPath></contextPath>
       <war>target/Spring4MVCHelloWorld.war</war>

@@ -1,0 +1,19 @@
+commit bcc0a1efb4b5e45fabc327300ab133fffe706488
+tree 1e2eb383d75867a0e60845d8a252ef85c4ea32e7
+parent 932e0efe7ea343c635af80b1f37320376e717eed
+author Kalisha Narine <kalisha@medullan.com> 1402433026 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402433026 -0400
+
+    add encoding
+
+:100644 100644 3ce391d8948ac39e304489afabb422e67472a96c f2c1fd8609fd88234a345a0a021d9c7e8d609985 M	pom.xml
+
+commit 932e0efe7ea343c635af80b1f37320376e717eed
+tree fff9dd0dd9a104905db63904e1fc8d5c011c3b91
+parent bc9250e1cc21bc1bcb5aef1ddc42f768a900b931
+author Kalisha Narine <kalisha@medullan.com> 1402428208 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402428208 -0400
+
+    adding static analysis
+
+:100644 100644 0cd803b637494e118769a6470445d72e7653a129 3ce391d8948ac39e304489afabb422e67472a96c M	pom.xml

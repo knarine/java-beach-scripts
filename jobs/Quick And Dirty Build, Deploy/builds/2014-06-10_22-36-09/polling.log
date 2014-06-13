@@ -1,0 +1,12 @@
+Started on Jun 10, 2014 10:36:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 41a29e8145ec02da065bb9b9ea9667ebca6d94fb (origin/master)
+using GIT_SSH to set credentials 
+using .gitcredentials to set credentials
+ > git --version
+ > git init /tmp/hudson3332027592533889652tmp
+ > git config --local credential.helper store --file=/tmp/git2762404145528066584.credentials
+ > git ls-remote -h https://github.com/knarine/java-beach.git master
+ > git config --local --remove-section credential
+Done. Took 1.3 sec
+Changes found

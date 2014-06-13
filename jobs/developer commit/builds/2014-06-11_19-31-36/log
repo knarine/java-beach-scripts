@@ -1,0 +1,203 @@
+Started by GitHub push by marlon-medullan
+Building in workspace /var/lib/jenkins/jobs/developer commit/workspace
+
+Deleting project workspace... done
+
+Cloning the remote Git repository
+Cloning repository https://github.com/knarine/java-beach
+ > git init /var/lib/jenkins/jobs/developer commit/workspace
+Fetching upstream changes from https://github.com/knarine/java-beach
+ > git --version
+using .gitcredentials to set credentials
+ > git config --local credential.helper store --file=/tmp/git7005069369480325932.credentials
+ > git fetch --tags --progress https://github.com/knarine/java-beach +refs/heads/*:refs/remotes/origin/*
+ > git config --local --remove-section credential
+ > git config remote.origin.url https://github.com/knarine/java-beach
+ > git config remote.origin.fetch +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/knarine/java-beach
+Fetching upstream changes from https://github.com/knarine/java-beach
+using .gitcredentials to set credentials
+ > git config --local credential.helper store --file=/tmp/git800712992987029195.credentials
+ > git fetch --tags --progress https://github.com/knarine/java-beach +refs/heads/*:refs/remotes/origin/*
+ > git config --local --remove-section credential
+ > git rev-parse origin/dev-integration^{commit}
+Checking out Revision 8c12fe1de1a92e9b78ffcd7f3e70b1678ac68f3d (origin/dev-integration)
+ > git config core.sparsecheckout
+ > git checkout -f 8c12fe1de1a92e9b78ffcd7f3e70b1678ac68f3d
+ > git rev-list feae9bad168179ef9ab35ff6f8ffc0900d644092
+[workspace] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven_Older/bin/mvn versions:set -DnewVersion=V-5
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring4MVCHelloWorld Maven Webapp 0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- versions-maven-plugin:2.1:set (default-cli) @ Spring4MVCHelloWorld ---
+[INFO] Searching for local aggregator root...
+[INFO] Local aggregation root: /var/lib/jenkins/jobs/developer commit/workspace
+[INFO] Processing com.javahash.web:Spring4MVCHelloWorld
+[INFO]     Updating project com.javahash.web:Spring4MVCHelloWorld
+[INFO]         from version 0-SNAPSHOT to V-5
+Props: {project.version=V-5, project.artifactId=Spring4MVCHelloWorld, project.groupId=com.javahash.web}
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.832s
+[INFO] Finished at: Wed Jun 11 19:31:48 UTC 2014
+[INFO] Final Memory: 8M/19M
+[INFO] ------------------------------------------------------------------------
+[workspace] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven_Older/bin/mvn -f pom.xml deploy checkstyle:checkstyle findbugs:findbugs cobertura:cobertura --settings /usr/local/src/java-beach-artifacts/settings.xml
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spring4MVCHelloWorld Maven Webapp V-5
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ Spring4MVCHelloWorld ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/jobs/developer commit/workspace/src/main/resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ Spring4MVCHelloWorld ---
+[INFO] Compiling 3 source files to /var/lib/jenkins/jobs/developer commit/workspace/target/classes
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ Spring4MVCHelloWorld ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/jobs/developer commit/workspace/src/test/resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ Spring4MVCHelloWorld ---
+[INFO] Compiling 1 source file to /var/lib/jenkins/jobs/developer commit/workspace/target/test-classes
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.5:test (default-test) @ Spring4MVCHelloWorld ---
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/developer commit/workspace/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.javahash.spring.controller.HelloControllerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.316 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-war-plugin:2.1:war (default-war) @ Spring4MVCHelloWorld ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [Spring4MVCHelloWorld] in [/var/lib/jenkins/jobs/developer commit/workspace/target/Spring4MVCHelloWorld]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/jobs/developer commit/workspace/src/main/webapp]
+[INFO] Webapp assembled in [148 msecs]
+[INFO] Building war: /var/lib/jenkins/jobs/developer commit/workspace/target/Spring4MVCHelloWorld.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ Spring4MVCHelloWorld ---
+[INFO] Installing /var/lib/jenkins/jobs/developer commit/workspace/target/Spring4MVCHelloWorld.war to /var/lib/jenkins/.m2/repository/com/javahash/web/Spring4MVCHelloWorld/V-5/Spring4MVCHelloWorld-V-5.war
+[INFO] Installing /var/lib/jenkins/jobs/developer commit/workspace/pom.xml to /var/lib/jenkins/.m2/repository/com/javahash/web/Spring4MVCHelloWorld/V-5/Spring4MVCHelloWorld-V-5.pom
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-deploy-plugin:2.8.1:deploy (default-deploy) @ Spring4MVCHelloWorld ---
+[INFO] Using alternate deployment repository internal.repo::default::file:///var/lib/jenkins/jobs/developer commit/workspace/target/mvn-repo
+Uploading: file:///var/lib/jenkins/jobs/developer commit/workspace/target/mvn-repo/com/javahash/web/Spring4MVCHelloWorld/V-5/Spring4MVCHelloWorld-V-5.war
+4 KB   8 KB   12 KB   16 KB   20 KB   24 KB   28 KB   32 KB   36 KB   40 KB   44 KB   48 KB   52 KB   56 KB   60 KB   64 KB   68 KB   72 KB   76 KB   80 KB   84 KB   88 KB   92 KB   96 KB   100 KB   104 KB   108 KB   112 KB   116 KB   120 KB   124 KB   128 KB   132 KB   136 KB   140 KB   144 KB   148 KB   152 KB   156 KB   160 KB   164 KB   168 KB   172 KB   176 KB   180 KB   184 KB   188 KB   192 KB   196 KB   200 KB   204 KB   208 KB   212 KB   216 KB   220 KB   224 KB   228 KB   232 KB   236 KB   240 KB   244 KB   248 KB   252 KB   256 KB   260 KB   264 KB   268 KB   272 KB   276 KB   280 KB   284 KB   288 KB   292 KB   296 KB   300 KB   304 KB   308 KB   312 KB   316 KB   320 KB   324 KB   328 KB   332 KB   336 KB   340 KB   344 KB   348 KB   352 KB   356 KB   360 KB   364 KB   368 KB   372 KB   376 KB   380 KB   384 KB   388 KB   392 KB   396 KB   400 KB   404 KB   408 KB   412 KB   416 KB   420 KB   424 KB   428 KB   432 KB   436 KB   440 KB   444 KB   448 KB   452 KB   456 KB   460 KB   464 KB   468 KB   472 KB   476 KB   480 KB   484 KB   488 KB   492 KB   496 KB   500 KB   504 KB   508 KB   512 KB   516 KB   520 KB   524 KB   528 KB   532 KB   536 KB   540 KB   544 KB   548 KB   552 KB   556 KB   560 KB   564 KB   568 KB   572 KB   576 KB   580 KB   584 KB   588 KB   592 KB   596 KB   600 KB   604 KB   608 KB   612 KB   616 KB   620 KB   624 KB   628 KB   632 KB   636 KB   640 KB   644 KB   648 KB   652 KB   656 KB   660 KB   664 KB   668 KB   672 KB   676 KB   680 KB   684 KB   688 KB   692 KB   696 KB   700 KB   704 KB   708 KB   712 KB   716 KB   720 KB   724 KB   728 KB   732 KB   736 KB   740 KB   744 KB   748 KB   752 KB   756 KB   760 KB   764 KB   768 KB   772 KB   776 KB   780 KB   784 KB   788 KB   792 KB   796 KB   800 KB   804 KB   808 KB   812 KB   816 KB   820 KB   824 KB   828 KB   832 KB   836 KB   840 KB   844 KB   848 KB   852 KB   856 KB   860 KB   864 KB   868 KB   872 KB   876 KB   880 KB   884 KB   888 KB   892 KB   896 KB   900 KB   904 KB   908 KB   912 KB   916 KB   920 KB   924 KB   928 KB   932 KB   936 KB   940 KB   944 KB   948 KB   952 KB   956 KB   960 KB   964 KB   968 KB   972 KB   976 KB   980 KB   984 KB   988 KB   992 KB   996 KB   1000 KB   1004 KB   1008 KB   1012 KB   1016 KB   1020 KB   1024 KB   1028 KB   1032 KB   1036 KB   1040 KB   1044 KB   1048 KB   1052 KB   1056 KB   1060 KB   1064 KB   1068 KB   1072 KB   1076 KB   1080 KB   1084 KB   1088 KB   1092 KB   1096 KB   1100 KB   1104 KB   1108 KB   1112 KB   1116 KB   1120 KB   1124 KB   1128 KB   1132 KB   1136 KB   1140 KB   1144 KB   1148 KB   1152 KB   1156 KB   1160 KB   1164 KB   1168 KB   1172 KB   1176 KB   1180 KB   1184 KB   1188 KB   1192 KB   1196 KB   1200 KB   1204 KB   1208 KB   1212 KB   1216 KB   1220 KB   1224 KB   1228 KB   1232 KB   1236 KB   1240 KB   1244 KB   1248 KB   1252 KB   1256 KB   1260 KB   1264 KB   1268 KB   1272 KB   1276 KB   1280 KB   1284 KB   1288 KB   1292 KB   1296 KB   1300 KB   1304 KB   1308 KB   1312 KB   1316 KB   1320 KB   1324 KB   1328 KB   1332 KB   1336 KB   1340 KB   1344 KB   1348 KB   1352 KB   1356 KB   1360 KB   1364 KB   1368 KB   1372 KB   1376 KB   1380 KB   1384 KB   1388 KB   1392 KB   1396 KB   1400 KB   1404 KB   1408 KB   1412 KB   1416 KB   1420 KB   1424 KB   1428 KB   1432 KB   1436 KB   1440 KB   1444 KB   1448 KB   1452 KB   1456 KB   1460 KB   1464 KB   1468 KB   1472 KB   1476 KB   1480 KB   1484 KB   1488 KB   1492 KB   1496 KB   1500 KB   1504 KB   1508 KB   1512 KB   1516 KB   1520 KB   1524 KB   1528 KB   1532 KB   1536 KB   1540 KB   1544 KB   1548 KB   1552 KB   1556 KB   1560 KB   1564 KB   1568 KB   1572 KB   1576 KB   1580 KB   1584 KB   1588 KB   1592 KB   1596 KB   1600 KB   1604 KB   1608 KB   1612 KB   1616 KB   1620 KB   1624 KB   1628 KB   1632 KB   1636 KB   1640 KB   1644 KB   1648 KB   1652 KB   1656 KB   1660 KB   1664 KB   1668 KB   1672 KB   1676 KB   1680 KB   1684 KB   1688 KB   1692 KB   1696 KB   1700 KB   1704 KB   1708 KB   1712 KB   1716 KB   1720 KB   1724 KB   1728 KB   1732 KB   1736 KB   1740 KB   1744 KB   1748 KB   1752 KB   1756 KB   1760 KB   1764 KB   1768 KB   1772 KB   1776 KB   1780 KB   1784 KB   1788 KB   1792 KB   1796 KB   1800 KB   1804 KB   1808 KB   1812 KB   1816 KB   1820 KB   1824 KB   1828 KB   1832 KB   1836 KB   1840 KB   1844 KB   1848 KB   1852 KB   1856 KB   1860 KB   1864 KB   1868 KB   1872 KB   1876 KB   1880 KB   1884 KB   1888 KB   1892 KB   1896 KB   1900 KB   1904 KB   1908 KB   1912 KB   1916 KB   1920 KB   1924 KB   1928 KB   1932 KB   1936 KB   1940 KB   1944 KB   1948 KB   1952 KB   1956 KB   1960 KB   1964 KB   1968 KB   1972 KB   1976 KB   1980 KB   1984 KB   1988 KB   1992 KB   1996 KB   2000 KB   2004 KB   2008 KB   2012 KB   2016 KB   2020 KB   2024 KB   2028 KB   2032 KB   2036 KB   2040 KB   2044 KB   2048 KB   2052 KB   2056 KB   2060 KB   2064 KB   2068 KB   2072 KB   2076 KB   2080 KB   2084 KB   2088 KB   2092 KB   2096 KB   2100 KB   2104 KB   2108 KB   2112 KB   2116 KB   2120 KB   2124 KB   2128 KB   2132 KB   2136 KB   2140 KB   2144 KB   2148 KB   2152 KB   2156 KB   2160 KB   2164 KB   2168 KB   2172 KB   2176 KB   2180 KB   2184 KB   2188 KB   2192 KB   2196 KB   2200 KB   2204 KB   2208 KB   2212 KB   2216 KB   2220 KB   2224 KB   2228 KB   2232 KB   2236 KB   2240 KB   2244 KB   2248 KB   2252 KB   2256 KB   2260 KB   2264 KB   2268 KB   2272 KB   2276 KB   2280 KB   2284 KB   2288 KB   2292 KB   2296 KB   2300 KB   2304 KB   2308 KB   2312 KB   2316 KB   2320 KB   2324 KB   2328 KB   2332 KB   2336 KB   2340 KB   2344 KB   2348 KB   2352 KB   2356 KB   2360 KB   2364 KB   2368 KB   2372 KB   2376 KB   2380 KB   2384 KB   2388 KB   2392 KB   2396 KB   2400 KB   2404 KB   2408 KB   2412 KB   2416 KB   2420 KB   2424 KB   2428 KB   2432 KB   2436 KB   2440 KB   2444 KB   2448 KB   2452 KB   2456 KB   2460 KB   2464 KB   2468 KB   2472 KB   2476 KB   2480 KB   2484 KB   2488 KB   2492 KB   2496 KB   2500 KB   2504 KB   2508 KB   2512 KB   2516 KB   2520 KB   2524 KB   2528 KB   2532 KB   2536 KB   2540 KB   2544 KB   2548 KB   2552 KB   2556 KB   2560 KB   2564 KB   2568 KB   2572 KB   2576 KB   2580 KB   2584 KB   2588 KB   2592 KB   2596 KB   2600 KB   2604 KB   2608 KB   2612 KB   2616 KB   2620 KB   2624 KB   2628 KB   2632 KB   2636 KB   2640 KB   2644 KB   2648 KB   2652 KB   2656 KB   2660 KB   2664 KB   2668 KB   2672 KB   2676 KB   2680 KB   2684 KB   2688 KB   2692 KB   2696 KB   2700 KB   2704 KB   2708 KB   2712 KB   2716 KB   2720 KB   2724 KB   2728 KB   2732 KB   2736 KB   2740 KB   2744 KB   2748 KB   2752 KB   2756 KB   2760 KB   2764 KB   2768 KB   2772 KB   2776 KB   2780 KB   2784 KB   2788 KB   2792 KB   2796 KB   2800 KB   2804 KB   2808 KB   2812 KB   2816 KB   2820 KB   2824 KB   2828 KB   2832 KB   2836 KB   2840 KB   2844 KB   2848 KB   2852 KB   2856 KB   2860 KB   2864 KB   2868 KB   2872 KB   2876 KB   2880 KB   2884 KB   2888 KB   2892 KB   2896 KB   2900 KB   2904 KB   2908 KB   2912 KB   2916 KB   2920 KB   2924 KB   2928 KB   2932 KB   2936 KB   2940 KB   2944 KB   2948 KB   2952 KB   2956 KB   2960 KB   2964 KB   2968 KB   2972 KB   2976 KB   2980 KB   2984 KB   2988 KB   2992 KB   2996 KB   3000 KB   3004 KB   3008 KB   3012 KB   3016 KB   3020 KB   3024 KB   3028 KB   3032 KB   3036 KB   3040 KB   3044 KB   3048 KB   3052 KB   3056 KB   3060 KB   3064 KB   3068 KB   3072 KB   3076 KB   3080 KB   3084 KB   3088 KB   3092 KB   3096 KB   3100 KB   3104 KB   3108 KB   3112 KB   3116 KB   3120 KB   3124 KB   3128 KB   3132 KB   3136 KB   3140 KB   3144 KB   3148 KB   3152 KB   3156 KB   3160 KB   3164 KB   3168 KB   3172 KB   3176 KB   3180 KB   3184 KB   3188 KB   3192 KB   3196 KB   3200 KB   3204 KB   3208 KB   3212 KB   3216 KB   3220 KB   3224 KB   3228 KB   3232 KB   3236 KB   3240 KB   3244 KB   3248 KB   3252 KB   3256 KB   3260 KB   3264 KB   3268 KB   3272 KB   3276 KB   3280 KB   3284 KB   3288 KB   3292 KB   3296 KB   3300 KB   3304 KB   3308 KB   3312 KB   3316 KB   3320 KB   3324 KB   3328 KB   3332 KB   3336 KB   3340 KB   3344 KB   3348 KB   3352 KB   3356 KB   3360 KB   3364 KB   3368 KB   3372 KB   3376 KB   3380 KB   3384 KB   3388 KB   3392 KB   3396 KB   3400 KB   3404 KB   3408 KB   3412 KB   3416 KB   3420 KB   3424 KB   3428 KB   3432 KB   3436 KB   3440 KB   3444 KB   3448 KB   3452 KB   3456 KB   3460 KB   3464 KB   3468 KB   3472 KB   3476 KB   3480 KB   3484 KB   3488 KB   3492 KB   3496 KB   3500 KB   3504 KB   3508 KB   3512 KB   3516 KB   3520 KB   3524 KB   3528 KB   3532 KB   3536 KB   3540 KB   3544 KB   3548 KB   3552 KB   3556 KB   3560 KB   3564 KB   3568 KB   3572 KB   3576 KB   3580 KB   3584 KB   3588 KB   3592 KB   3596 KB   3600 KB   3604 KB   3608 KB   3612 KB   3616 KB   3620 KB   3624 KB   3628 KB   3632 KB   3636 KB   3640 KB   3644 KB   3648 KB   3652 KB   3656 KB   3660 KB   3664 KB   3668 KB   3672 KB   3676 KB   3680 KB   3684 KB   3688 KB   3692 KB   3696 KB   3700 KB   3704 KB   3708 KB   3712 KB   3716 KB   3720 KB   3724 KB   3728 KB   3732 KB   3736 KB   3740 KB   3744 KB   3748 KB   3752 KB   3756 KB   3760 KB   3764 KB   3768 KB   3772 KB   3776 KB   3780 KB   3784 KB   3788 KB   3792 KB   3796 KB   3800 KB   3804 KB   3808 KB   3812 KB   3816 KB   3820 KB   3824 KB   3828 KB   3832 KB   3836 KB   3840 KB   3844 KB   3848 KB   3852 KB   3856 KB   3860 KB   3864 KB   3868 KB   3872 KB   3876 KB   3880 KB   3884 KB   3888 KB   3892 KB   3896 KB   3900 KB   3904 KB   3908 KB   3912 KB   3916 KB   3920 KB   3924 KB   3928 KB   3932 KB   3936 KB   3940 KB   3944 KB   3948 KB   3952 KB   3956 KB   3960 KB   3964 KB   3968 KB   3972 KB   3976 KB   3980 KB   3984 KB   3988 KB   3992 KB   3996 KB   4000 KB   4004 KB   4008 KB   4012 KB   4016 KB   4020 KB   4024 KB   4028 KB   4032 KB   4036 KB   4040 KB   4044 KB   4048 KB   4052 KB   4056 KB   4060 KB   4064 KB   4068 KB   4072 KB   4076 KB   4080 KB   4084 KB   4088 KB   4092 KB   4096 KB   4100 KB   4104 KB   4108 KB   4112 KB   4116 KB   4120 KB   4124 KB   4128 KB   4132 KB   4136 KB   4140 KB   4144 KB   4148 KB   4152 KB   4156 KB   4160 KB   4164 KB   4168 KB   4172 KB   4176 KB   4180 KB   4184 KB   4188 KB   4192 KB   4196 KB   4200 KB   4204 KB   4208 KB   4212 KB   4216 KB   4220 KB   4224 KB   4228 KB   4232 KB   4236 KB   4240 KB   4244 KB   4248 KB   4252 KB   4256 KB   4260 KB   4264 KB   4268 KB   4272 KB   4276 KB   4280 KB   4284 KB   4288 KB   4292 KB   4296 KB   4300 KB   4304 KB   4308 KB   4312 KB   4316 KB   4320 KB   4324 KB   4328 KB   4332 KB   4336 KB   4340 KB   4344 KB   4348 KB   4352 KB   4356 KB   4360 KB   4364 KB   4368 KB   4372 KB   4376 KB   4380 KB   4384 KB   4388 KB   4392 KB   4396 KB   4400 KB   4404 KB   4408 KB   4412 KB   4416 KB   4420 KB   4424 KB   4428 KB   4432 KB   4436 KB   4440 KB   4444 KB   4448 KB   4452 KB   4456 KB   4460 KB   4464 KB   4468 KB   4472 KB   4476 KB   4480 KB   4484 KB   4488 KB   4492 KB   4496 KB   4500 KB   4504 KB   4508 KB   4512 KB   4516 KB   4520 KB   4524 KB   4528 KB   4532 KB   4536 KB   4540 KB   4544 KB   4548 KB   4552 KB   4556 KB   4560 KB   4564 KB   4568 KB   4572 KB   4576 KB   4580 KB   4584 KB   4588 KB   4592 KB   4596 KB   4600 KB   4604 KB   4606 KB             Uploaded: file:///var/lib/jenkins/jobs/developer commit/workspace/target/mvn-repo/com/javahash/web/Spring4MVCHelloWorld/V-5/Spring4MVCHelloWorld-V-5.war (4606 KB at 11962.4 KB/sec)
+Uploading: file:///var/lib/jenkins/jobs/developer commit/workspace/target/mvn-repo/com/javahash/web/Spring4MVCHelloWorld/V-5/Spring4MVCHelloWorld-V-5.pom
+4 KB      6 KB          Uploaded: file:///var/lib/jenkins/jobs/developer commit/workspace/target/mvn-repo/com/javahash/web/Spring4MVCHelloWorld/V-5/Spring4MVCHelloWorld-V-5.pom (6 KB at 2955.6 KB/sec)
+Downloading: file:///var/lib/jenkins/jobs/developer commit/workspace/target/mvn-repo/com/javahash/web/Spring4MVCHelloWorld/maven-metadata.xml
+       Uploading: file:///var/lib/jenkins/jobs/developer commit/workspace/target/mvn-repo/com/javahash/web/Spring4MVCHelloWorld/maven-metadata.xml
+424 B           Uploaded: file:///var/lib/jenkins/jobs/developer commit/workspace/target/mvn-repo/com/javahash/web/Spring4MVCHelloWorld/maven-metadata.xml (424 B at 82.8 KB/sec)
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- site-maven-plugin:0.9:site (default) @ Spring4MVCHelloWorld ---
+[INFO] Creating 9 blobs
+[INFO] Creating tree with 10 blob entries
+[INFO] Merging with tree 67085e5ed6910abeb823864891f92a7b5b6dcf42
+[INFO] Creating commit with SHA-1: 8034b2fa0fc380f39808ea54afc130b6f3f16ec4
+[INFO] Updating reference refs/heads/mvn-repo from daa558b9769267c10d832b69f67d6682e6cfc5a2 to 8034b2fa0fc380f39808ea54afc130b6f3f16ec4
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-checkstyle-plugin:2.12.1:checkstyle (default-cli) @ Spring4MVCHelloWorld ---
+[INFO] 
+[INFO] There are 69 checkstyle errors.
+[8mha:AAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Unable to locate Source XRef to link to - DISABLED
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- findbugs-maven-plugin:2.5.4:findbugs (default-cli) @ Spring4MVCHelloWorld ---
+[INFO] Fork Value is true
+[INFO] Done FindBugs Analysis....
+[INFO] 
+[INFO] >>> cobertura-maven-plugin:2.5.2:cobertura (default-cli) @ Spring4MVCHelloWorld >>>
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ Spring4MVCHelloWorld ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/jobs/developer commit/workspace/src/main/resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ Spring4MVCHelloWorld ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- cobertura-maven-plugin:2.5.2:instrument (default-cli) @ Spring4MVCHelloWorld ---
+[INFO] Cobertura 1.9.4.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+Instrumenting 3 files to /var/lib/jenkins/jobs/developer commit/workspace/target/generated-classes/cobertura
+Cobertura: Saved information on 3 classes.
+Instrument time: 186ms
+
+[INFO] Instrumentation was successful.
+[INFO] NOT adding cobertura ser file to attached artifacts list.
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ Spring4MVCHelloWorld ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/jobs/developer commit/workspace/src/test/resources
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ Spring4MVCHelloWorld ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.5:test (default-test) @ Spring4MVCHelloWorld ---
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/developer commit/workspace/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.javahash.spring.controller.HelloControllerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.229 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] <<< cobertura-maven-plugin:2.5.2:cobertura (default-cli) @ Spring4MVCHelloWorld <<<
+[INFO] 
+[8mha:AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- cobertura-maven-plugin:2.5.2:cobertura (default-cli) @ Spring4MVCHelloWorld ---
+[INFO] Cobertura 1.9.4.1 - GNU GPL License (NO WARRANTY) - See COPYRIGHT file
+Cobertura: Loaded information on 3 classes.
+Report time: 216ms
+
+[INFO] Cobertura Report generation was successful.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 55.549s
+[INFO] Finished at: Wed Jun 11 19:32:46 UTC 2014
+[INFO] Final Memory: 44M/146M
+[INFO] ------------------------------------------------------------------------
+Archiving artifacts
+[CHECKSTYLE] Collecting checkstyle analysis files...
+[CHECKSTYLE] Finding all files that match the pattern target/checkstyle-result.xml
+[CHECKSTYLE] Parsing 1 files in /var/lib/jenkins/jobs/developer commit/workspace
+[CHECKSTYLE] Successfully parsed file /var/lib/jenkins/jobs/developer commit/workspace/target/checkstyle-result.xml of module  with 69 warnings.
+[CHECKSTYLE] Computing warning deltas based on reference build #V-4
+[FINDBUGS] Collecting findbugs analysis files...
+[FINDBUGS] Finding all files that match the pattern target/findbugsXml.xml
+[FINDBUGS] Parsing 1 files in /var/lib/jenkins/jobs/developer commit/workspace
+[FINDBUGS] Successfully parsed file /var/lib/jenkins/jobs/developer commit/workspace/target/findbugsXml.xml of module  with 0 warnings.
+[FINDBUGS] Computing warning deltas based on reference build #V-4
+[Cobertura] Publishing Cobertura coverage report...
+Publishing Cobertura coverage results...
+Cobertura coverage report found.
+ > git tag -l jenkins-developer_commit-5
+ > git tag -a -f -m Jenkins Build #5 jenkins-developer_commit-5-SUCCESS
+Pushing HEAD to branch develop at repo origin
+ > git config --get remote.origin.url
+using .gitcredentials to set credentials
+ > git --version
+ > git config --local credential.helper store --file=/tmp/git600103215643189941.credentials
+ > git push https://github.com/knarine/java-beach HEAD:develop
+ > git config --local --remove-section credential
+Warning: you have no plugins providing access control for builds, so falling back to legacy behavior of permitting any downstream builds to be triggered
+Triggering a new build of [8mha:AAAAux+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz1EgZT/az8JP2U1IKc/EpVI4O0/CIgmVhakp+bWJKaAmInJ6cWlCTmJacCOSWpxSVAa/QBCNU9S+oAAAA=[0mdeploy for automated acceptance testing #18
+Finished: SUCCESS

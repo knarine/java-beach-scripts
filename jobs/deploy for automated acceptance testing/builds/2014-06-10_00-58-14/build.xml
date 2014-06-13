@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UpstreamCause>
+          <upstreamProject>developer commit</upstreamProject>
+          <upstreamUrl>job/developer%20commit/</upstreamUrl>
+          <upstreamBuild>76</upstreamBuild>
+          <upstreamCauses>
+            <hudson.model.Cause_-UserIdCause/>
+          </upstreamCauses>
+        </hudson.model.Cause_-UpstreamCause>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.plugins.copyartifact.CopyArtifact_-EnvAction plugin="copyartifact@1.30"/>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>Spring4MVCHelloWorld-76.pom</string>
+          <string>e946b5b7a47ae2136180ff7801be40ae</string>
+        </entry>
+        <entry>
+          <string>Spring4MVCHelloWorld-76.war</string>
+          <string>6c37ddc262210aa1fddd6c93f762af40</string>
+        </entry>
+        <entry>
+          <string>Spring4MVCHelloWorld.war</string>
+          <string>6c37ddc262210aa1fddd6c93f762af40</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <number>7</number>
+  <startTime>1402361894560</startTime>
+  <result>FAILURE</result>
+  <duration>501</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/jobs/deploy for automated acceptance testing/workspace</workspace>
+  <hudsonVersion>1.566</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

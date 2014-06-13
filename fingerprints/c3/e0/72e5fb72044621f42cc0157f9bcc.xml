@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2014-06-10 21:16:30.443 UTC</timestamp>
+  <original>
+    <name>Quick And Dirty Build, Deploy/com.javahash.web:Spring4MVCHelloWorld</name>
+    <number>14</number>
+  </original>
+  <md5sum>c3e072e5fb72044621f42cc0157f9bcc</md5sum>
+  <fileName>com.javahash.web:Spring4MVCHelloWorld.war</fileName>
+  <usages>
+    <entry>
+      <string>Quick And Dirty Build, Deploy/com.javahash.web:Spring4MVCHelloWorld</string>
+      <ranges>14</ranges>
+    </entry>
+    <entry>
+      <string>Quick And Dirty Build, Deploy</string>
+      <ranges>14</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

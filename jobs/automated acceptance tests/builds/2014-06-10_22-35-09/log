@@ -1,0 +1,34 @@
+Started by upstream project "[8mha:AAAAux+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz1EgZT/az8JP2U1IKc/EpVI4O0/CIgmVhakp+bWJKaAmInJ6cWlCTmJacCOSWpxSVAa/QBCNU9S+oAAAA=[0mdeploy for automated acceptance testing" build number [8mha:AAAAvR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZz/az8JP2U1IKc/EpVI4O0/CIgmVhakp+bWJKaAmInJ6cWlCTmJacCOSWpxSVAa/QNjQFFIPlu7AAAAA==[0m13
+originally caused by:
+ Started by upstream project "[8mha:AAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYJ/az8JP2U1LLUnHygtapGBsn5ubmZJfoAK1W5fM0AAAA=[0mdeveloper commit" build number [8mha:AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYp/az8JP2U1LLUnHygtapGBsn5ubmZJfoWhgAFRty/zwAAAA==[0m81
+ originally caused by:
+  Started by GitHub push by knarine
+Building in workspace /var/lib/jenkins/jobs/automated acceptance tests/workspace
+ > git rev-parse --is-inside-work-tree
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/knarine/java-beach.git
+Fetching upstream changes from https://github.com/knarine/java-beach.git
+ > git --version
+using .gitcredentials to set credentials
+ > git config --local credential.helper store --file=/tmp/git4692956617917364433.credentials
+ > git fetch --tags --progress https://github.com/knarine/java-beach.git +refs/heads/*:refs/remotes/origin/*
+ > git config --local --remove-section credential
+ > git rev-parse origin/develop^{commit}
+Checking out Revision 0aa4dc88991b51ad2f5448a528b54cebc2309aa1 (origin/develop)
+ > git config core.sparsecheckout
+ > git checkout -f 0aa4dc88991b51ad2f5448a528b54cebc2309aa1
+ > git rev-list 41a29e8145ec02da065bb9b9ea9667ebca6d94fb
+Copied 1 artifact from "[8mha:AAAAmB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgQKGGQ0M/KT9JPSS1LzckHWqtqZJCcn5ubWaIPAGSyYdudAAAA[0mdeveloper commit" build number [8mha:AAAAmx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgKmGQ1s/KT9JPSS1LzckHWqtqZJCcn5ubWaJvYagPAJfyQuqgAAAA[0m81
+Copied 2 artifacts from "[8mha:AAAAuR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMgwKWGw08/KT9JPSS1LzckHWqtqZJCcn5ubWaIPpPRAxmckFmfolacmqQQXgGww8Q1z9kjNyckPzy/KSdEHAOYvrMLDAAAA[0mdeveloper commit » Spring4MVCHelloWorld Maven Webapp" build number [8mha:AAAAvB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgKmFw1M/KT9JPSS1LzckHWqtqZJCcn5ubWaIPpPRAxmckFmfolacmqQQXgGww8Q1z9kjNyckPzy/KSdG3MNQHAJ5YGAvGAAAA[0m81
+ > git tag -l jenkins-automated_acceptance_tests-13
+ > git tag -a -f -m Jenkins Build #13 jenkins-automated_acceptance_tests-13-SUCCESS
+Pushing HEAD to branch master at repo origin
+ > git config --get remote.origin.url
+using .gitcredentials to set credentials
+ > git --version
+ > git config --local credential.helper store --file=/tmp/git3262609163251115991.credentials
+ > git push https://github.com/knarine/java-beach.git HEAD:master
+ > git config --local --remove-section credential
+Warning: you have no plugins providing access control for builds, so falling back to legacy behavior of permitting any downstream builds to be triggered
+Triggering a new build of [8mha:AAAAuR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyVEgYj/az8JP2U1IKc/EpVI4O0/CIgmZuYV5qYA2QkJienFpQk5iWnAjklqcUlQDv0AXsKld/nAAAA[0mdeploy for manual acceptance testing #12
+Finished: SUCCESS

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2014-06-09 23:42:02.602 UTC</timestamp>
+  <original>
+    <name>Quick And Dirty Build, Deploy/com.javahash.web:Spring4MVCHelloWorld</name>
+    <number>5</number>
+  </original>
+  <md5sum>317de7306f3824603e4f57e96130e6b9</md5sum>
+  <fileName>com.javahash.web:Spring4MVCHelloWorld:pom.xml</fileName>
+  <usages>
+    <entry>
+      <string>Quick And Dirty Build, Deploy/com.javahash.web:Spring4MVCHelloWorld</string>
+      <ranges>5</ranges>
+    </entry>
+    <entry>
+      <string>Quick And Dirty Build, Deploy</string>
+      <ranges>5</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

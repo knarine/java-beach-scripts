@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2014-06-10 20:45:51.470 UTC</timestamp>
+  <original>
+    <name>developer commit/com.javahash.web:Spring4MVCHelloWorld</name>
+    <number>78</number>
+  </original>
+  <md5sum>2736e2754302c624fcd74ebb07abf64b</md5sum>
+  <fileName>com.javahash.web:Spring4MVCHelloWorld.war</fileName>
+  <usages>
+    <entry>
+      <string>deploy for automated acceptance testing</string>
+      <ranges>9</ranges>
+    </entry>
+    <entry>
+      <string>deploy for manual acceptance testing</string>
+      <ranges>7-9</ranges>
+    </entry>
+    <entry>
+      <string>developer commit</string>
+      <ranges>78</ranges>
+    </entry>
+    <entry>
+      <string>automated acceptance tests</string>
+      <ranges>9-10</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

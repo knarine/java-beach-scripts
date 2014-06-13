@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2014-06-11 18:50:51.48 UTC</timestamp>
+  <original>
+    <name>developer commit</name>
+    <number>4</number>
+  </original>
+  <md5sum>0a370cb6cf2953824bba90714356e05c</md5sum>
+  <fileName>Spring4MVCHelloWorld-V-4.war</fileName>
+  <usages>
+    <entry>
+      <string>deploy for automated acceptance testing</string>
+      <ranges>17</ranges>
+    </entry>
+    <entry>
+      <string>developer commit</string>
+      <ranges>4</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UpstreamCause>
+          <upstreamProject>developer commit</upstreamProject>
+          <upstreamUrl>job/developer%20commit/</upstreamUrl>
+          <upstreamBuild>82</upstreamBuild>
+          <upstreamCauses>
+            <com.cloudbees.jenkins.GitHubPushCause plugin="github@1.8">
+              <pushedBy>knarine</pushedBy>
+            </com.cloudbees.jenkins.GitHubPushCause>
+          </upstreamCauses>
+        </hudson.model.Cause_-UpstreamCause>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.plugins.copyartifact.CopyArtifact_-EnvAction plugin="copyartifact@1.30"/>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>Spring4MVCHelloWorld-82.pom</string>
+          <string>43d97e97d3f6aa5ad197ca4b576dcfba</string>
+        </entry>
+        <entry>
+          <string>Spring4MVCHelloWorld-82.war</string>
+          <string>17c7bf4e34202bb8fbc5a0630afc83d1</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <number>14</number>
+  <startTime>1402442449896</startTime>
+  <result>SUCCESS</result>
+  <duration>16459</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/jobs/deploy for automated acceptance testing/workspace</workspace>
+  <hudsonVersion>1.566</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

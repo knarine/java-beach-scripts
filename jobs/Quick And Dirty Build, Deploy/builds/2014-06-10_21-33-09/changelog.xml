@@ -1,0 +1,9 @@
+commit 5702cd9d33efd94bd8badbcc4073479dcea0b246
+tree f8b151578bb1c9c24e7f069e533ce7e9a9f3cadb
+parent bcc0a1efb4b5e45fabc327300ab133fffe706488
+author Kalisha Narine <kalisha@medullan.com> 1402435601 -0400
+committer Kalisha Narine <kalisha@medullan.com> 1402435601 -0400
+
+    do not fail on findbug errors
+
+:100644 100644 f2c1fd8609fd88234a345a0a021d9c7e8d609985 f15056b77e0c8fa66ea3d37a7cd4e5b2405c322d M	pom.xml

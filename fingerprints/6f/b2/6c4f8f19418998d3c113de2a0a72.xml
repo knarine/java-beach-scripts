@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2014-06-10 21:27:51.818 UTC</timestamp>
+  <original>
+    <name>developer commit/com.javahash.web:Spring4MVCHelloWorld</name>
+    <number>79</number>
+  </original>
+  <md5sum>6fb26c4f8f19418998d3c113de2a0a72</md5sum>
+  <fileName>com.javahash.web:Spring4MVCHelloWorld:pom.xml</fileName>
+  <usages>
+    <entry>
+      <string>deploy for automated acceptance testing</string>
+      <ranges>10-11</ranges>
+    </entry>
+    <entry>
+      <string>deploy for manual acceptance testing</string>
+      <ranges>10</ranges>
+    </entry>
+    <entry>
+      <string>developer commit</string>
+      <ranges>79</ranges>
+    </entry>
+    <entry>
+      <string>automated acceptance tests</string>
+      <ranges>11</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

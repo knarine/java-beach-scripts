@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2014-06-10 00:45:58.689 UTC</timestamp>
+  <original>
+    <name>developer commit/com.javahash.web:Spring4MVCHelloWorld</name>
+    <number>74</number>
+  </original>
+  <md5sum>7b88ad79833b0cf4f900a606a00a9d9a</md5sum>
+  <fileName>com.javahash.web:Spring4MVCHelloWorld:pom.xml</fileName>
+  <usages>
+    <entry>
+      <string>developer commit</string>
+      <ranges>74</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

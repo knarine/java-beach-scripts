@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.tasks.Mailer_-DescriptorImpl plugin="mailer@1.8">
+  <defaultSuffix>@medullan.com</defaultSuffix>
+  <smtpAuthUsername>ideazensolutions</smtpAuthUsername>
+  <smtpAuthPassword>P6FObwoMl6Kg4XMTzIAzYwTkpQ+Cg43nv5DEQkrGDv8=</smtpAuthPassword>
+  <replyToAddress>mjoseph@medullan.com</replyToAddress>
+  <smtpHost>smtp.sendgrid.net</smtpHost>
+  <useSsl>false</useSsl>
+  <smtpPort>587</smtpPort>
+  <charset>UTF-8</charset>
+</hudson.tasks.Mailer_-DescriptorImpl>

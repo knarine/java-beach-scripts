@@ -1,0 +1,11 @@
+Started on Jun 13, 2014 7:57:49 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision d3fd4cde8a81ceccc7c862794c598d6a5161d75e (origin/dev-integration)
+using .gitcredentials to set credentials
+ > git --version
+ > git init /tmp/hudson3160191832305751166tmp
+ > git config --local credential.helper store --file=/tmp/git1986345841027954258.credentials
+ > git ls-remote -h https://github.com/knarine/java-beach dev-integration
+ > git config --local --remove-section credential
+Done. Took 1.2 sec
+No changes

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<com.cloudbees.jenkins.GitHubPushTrigger_-DescriptorImpl plugin="github@1.8">
+  <manageHook>true</manageHook>
+  <credentials>
+    <com.cloudbees.jenkins.Credential>
+      <username></username>
+      <apiUrl>https://api.github.com</apiUrl>
+      <oauthAccessToken>91f2955c523651158b27086ba44ac26e07f8128d</oauthAccessToken>
+      <password>YA3E2KMr4JeZkpYBHE2C0A==</password>
+    </com.cloudbees.jenkins.Credential>
+  </credentials>
+</com.cloudbees.jenkins.GitHubPushTrigger_-DescriptorImpl>

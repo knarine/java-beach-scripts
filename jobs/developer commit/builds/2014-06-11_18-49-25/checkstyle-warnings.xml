@@ -1,0 +1,1521 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation-array>
+  <warning plugin="checkstyle@3.39">
+    <message>Line is longer than 80 characters (found 98).</message>
+    <priority>HIGH</priority>
+    <key>183</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>15</start>
+        <end>15</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>15</primaryLineNumber>
+    <fileName>/var/lib/jenkins/jobs/developer commit/workspace/src/main/java/com/javahash/spring/config/WebInitializer.java</fileName>
+    <moduleName></moduleName>
+    <packageName>com.javahash.spring.config</packageName>
+    <category>Sizes</category>
+    <type>LineLengthCheck</type>
+    <contextHashCode>368060127</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message>Missing a Javadoc comment.</message>
+    <priority>HIGH</priority>
+    <key>194</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>8</start>
+        <end>8</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>8</primaryLineNumber>
+    <fileName>/var/lib/jenkins/jobs/developer commit/workspace/src/main/java/com/javahash/spring/controller/HelloWorldController.java</fileName>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName>com.javahash.spring.controller</packageName>
+    <category>Javadoc</category>
+    <type>JavadocTypeCheck</type>
+    <contextHashCode>-1762873153</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/controller</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message>&amp;apos;=&amp;apos; is not followed by whitespace.</message>
+    <priority>HIGH</priority>
+    <key>201</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>12</start>
+        <end>12</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>12</primaryLineNumber>
+    <fileName reference="../../warning[2]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning[2]/packageName"/>
+    <category>Whitespace</category>
+    <type>WhitespaceAroundCheck</type>
+    <contextHashCode>891455377</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/controller</pathName>
+    <primaryColumnStart>45</primaryColumnStart>
+    <primaryColumnEnd>45</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message>Line has trailing spaces.</message>
+    <priority>HIGH</priority>
+    <key>190</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>21</start>
+        <end>21</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>21</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>-548144711</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>173</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>10</start>
+        <end>10</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>10</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>-233394840</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message>Parameter servletContext should be final.</message>
+    <priority>HIGH</priority>
+    <key>180</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>13</start>
+        <end>13</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>13</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Checks</category>
+    <type>FinalParametersCheck</type>
+    <contextHashCode>769953476</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>31</primaryColumnStart>
+    <primaryColumnEnd>31</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>186</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>18</start>
+        <end>18</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>18</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>-1498600663</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message>Line is longer than 80 characters (found 88).</message>
+    <priority>HIGH</priority>
+    <key>176</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>13</start>
+        <end>13</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>13</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Sizes</category>
+    <type>LineLengthCheck</type>
+    <contextHashCode>769953476</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[3]/message"/>
+    <priority>HIGH</priority>
+    <key>203</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>12</start>
+        <end>12</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>12</primaryLineNumber>
+    <fileName reference="../../warning[2]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning[2]/packageName"/>
+    <category>Whitespace</category>
+    <type>WhitespaceAroundCheck</type>
+    <contextHashCode>891455377</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/controller</pathName>
+    <primaryColumnStart>62</primaryColumnStart>
+    <primaryColumnEnd>62</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>187</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>19</start>
+        <end>19</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>19</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>1715122725</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>152</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>16</start>
+        <end>16</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>16</primaryLineNumber>
+    <fileName>/var/lib/jenkins/jobs/developer commit/workspace/src/main/java/com/javahash/spring/config/Config.java</fileName>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>1462730003</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message>Line is longer than 80 characters (found 96).</message>
+    <priority>HIGH</priority>
+    <key>188</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>19</start>
+        <end>19</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>19</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Sizes</category>
+    <type>LineLengthCheck</type>
+    <contextHashCode>1715122725</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[2]/message"/>
+    <priority>HIGH</priority>
+    <key>197</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>11</start>
+        <end>11</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>11</primaryLineNumber>
+    <fileName reference="../../warning[2]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning[2]/packageName"/>
+    <category>Javadoc</category>
+    <type>JavadocMethodCheck</type>
+    <contextHashCode>266368219</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/controller</pathName>
+    <primaryColumnStart>5</primaryColumnStart>
+    <primaryColumnEnd>5</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message>Method &amp;apos;onStartup&amp;apos; is not designed for extension - needs to be abstract, final or empty.</message>
+    <priority>HIGH</priority>
+    <key>178</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>13</start>
+        <end>13</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>13</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Design</category>
+    <type>DesignForExtensionCheck</type>
+    <contextHashCode>769953476</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>9</primaryColumnStart>
+    <primaryColumnEnd>9</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message>Missing package-info.java file.</message>
+    <priority>HIGH</priority>
+    <key>193</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>0</start>
+        <end>0</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>0</primaryLineNumber>
+    <fileName reference="../../warning[2]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning[2]/packageName"/>
+    <category>Javadoc</category>
+    <type>JavadocPackageCheck</type>
+    <contextHashCode>45299180</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/controller</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>165</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>3</start>
+        <end>3</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>3</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>1868714033</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>184</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>16</start>
+        <end>16</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>16</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>1060946626</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>167</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>5</start>
+        <end>5</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>5</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>-676484638</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[3]/message"/>
+    <priority>HIGH</priority>
+    <key>205</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>12</start>
+        <end>12</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>12</primaryLineNumber>
+    <fileName reference="../../warning[2]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning[2]/packageName"/>
+    <category>Whitespace</category>
+    <type>WhitespaceAroundCheck</type>
+    <contextHashCode>891455377</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/controller</pathName>
+    <primaryColumnStart>82</primaryColumnStart>
+    <primaryColumnEnd>82</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message>Method &amp;apos;setupViewResolver&amp;apos; is not designed for extension - needs to be abstract, final or empty.</message>
+    <priority>HIGH</priority>
+    <key>154</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>17</start>
+        <end>17</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>17</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Design</category>
+    <type>DesignForExtensionCheck</type>
+    <contextHashCode>31381563</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>5</primaryColumnStart>
+    <primaryColumnEnd>5</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>172</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>9</start>
+        <end>9</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>9</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>1565982213</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message>&amp;apos;=&amp;apos; is not preceded with whitespace.</message>
+    <priority>HIGH</priority>
+    <key>204</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>12</start>
+        <end>12</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>12</primaryLineNumber>
+    <fileName reference="../../warning[2]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning[2]/packageName"/>
+    <category>Whitespace</category>
+    <type>WhitespaceAroundCheck</type>
+    <contextHashCode>891455377</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/controller</pathName>
+    <primaryColumnStart>81</primaryColumnStart>
+    <primaryColumnEnd>81</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[2]/message"/>
+    <priority>HIGH</priority>
+    <key>155</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>17</start>
+        <end>17</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>17</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Javadoc</category>
+    <type>JavadocMethodCheck</type>
+    <contextHashCode>31381563</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>5</primaryColumnStart>
+    <primaryColumnEnd>5</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>160</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>22</start>
+        <end>22</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>22</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>-1320443031</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[2]/message"/>
+    <priority>HIGH</priority>
+    <key>174</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>11</start>
+        <end>11</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>11</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Javadoc</category>
+    <type>JavadocTypeCheck</type>
+    <contextHashCode>540407367</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>169</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>7</start>
+        <end>7</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>7</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>88867836</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message>Parameter name should be final.</message>
+    <priority>HIGH</priority>
+    <key>199</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>12</start>
+        <end>12</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>12</primaryLineNumber>
+    <fileName reference="../../warning[2]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning[2]/packageName"/>
+    <category>Checks</category>
+    <type>FinalParametersCheck</type>
+    <contextHashCode>891455377</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/controller</pathName>
+    <primaryColumnStart>25</primaryColumnStart>
+    <primaryColumnEnd>25</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>151</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>15</start>
+        <end>15</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>15</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>-1354311242</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[15]/message"/>
+    <priority>HIGH</priority>
+    <key>138</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>0</start>
+        <end>0</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>0</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Javadoc</category>
+    <type>JavadocPackageCheck</type>
+    <contextHashCode>950808032</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>147</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>9</start>
+        <end>9</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>9</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>-1124555944</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message>Line contains a tab character.</message>
+    <priority>HIGH</priority>
+    <key>177</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>13</start>
+        <end>13</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>13</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Whitespace</category>
+    <type>FileTabCharacterCheck</type>
+    <contextHashCode>769953476</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>1</primaryColumnStart>
+    <primaryColumnEnd>1</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>149</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>13</start>
+        <end>13</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>13</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>-1402886855</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>139</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>1</start>
+        <end>1</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>1</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>-720918182</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>157</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>19</start>
+        <end>19</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>19</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>1291998713</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>150</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>14</start>
+        <end>14</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>14</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>577053122</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>141</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>3</start>
+        <end>3</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>3</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>-318753551</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>162</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>24</start>
+        <end>24</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>24</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>1691717078</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>153</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>17</start>
+        <end>17</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>17</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>31381563</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message>Line is longer than 80 characters (found 87).</message>
+    <priority>HIGH</priority>
+    <key>171</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>8</start>
+        <end>8</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>8</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Sizes</category>
+    <type>LineLengthCheck</type>
+    <contextHashCode>-696860603</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>195</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>9</start>
+        <end>9</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>9</primaryLineNumber>
+    <fileName reference="../../warning[2]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning[2]/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>-1093156969</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/controller</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>168</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>6</start>
+        <end>6</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>6</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>1916760977</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>140</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>2</start>
+        <end>2</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>2</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>1814406519</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message>Method &amp;apos;hello&amp;apos; is not designed for extension - needs to be abstract, final or empty.</message>
+    <priority>HIGH</priority>
+    <key>196</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>11</start>
+        <end>11</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>11</primaryLineNumber>
+    <fileName reference="../../warning[2]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning[2]/packageName"/>
+    <category>Design</category>
+    <type>DesignForExtensionCheck</type>
+    <contextHashCode>266368219</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/controller</pathName>
+    <primaryColumnStart>5</primaryColumnStart>
+    <primaryColumnEnd>5</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>164</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>26</start>
+        <end>26</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>26</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>850379296</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>158</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>20</start>
+        <end>20</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>20</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>357951401</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>185</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>17</start>
+        <end>17</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>17</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>-2051121086</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>156</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>18</start>
+        <end>18</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>18</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>-1315364156</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[22]/message"/>
+    <priority>HIGH</priority>
+    <key>202</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>12</start>
+        <end>12</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>12</primaryLineNumber>
+    <fileName reference="../../warning[2]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning[2]/packageName"/>
+    <category>Whitespace</category>
+    <type>WhitespaceAroundCheck</type>
+    <contextHashCode>891455377</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/controller</pathName>
+    <primaryColumnStart>61</primaryColumnStart>
+    <primaryColumnEnd>61</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message>Line is longer than 80 characters (found 116).</message>
+    <priority>HIGH</priority>
+    <key>198</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>12</start>
+        <end>12</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>12</primaryLineNumber>
+    <fileName reference="../../warning[2]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning[2]/packageName"/>
+    <category>Sizes</category>
+    <type>LineLengthCheck</type>
+    <contextHashCode>891455377</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/controller</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[2]/message"/>
+    <priority>HIGH</priority>
+    <key>179</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>13</start>
+        <end>13</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>13</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Javadoc</category>
+    <type>JavadocMethodCheck</type>
+    <contextHashCode>769953476</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>9</primaryColumnStart>
+    <primaryColumnEnd>9</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>145</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>7</start>
+        <end>7</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>7</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>1207820079</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>181</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>14</start>
+        <end>14</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>14</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>1692990634</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>192</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>23</start>
+        <end>23</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>23</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>-376923398</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>146</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>8</start>
+        <end>8</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>8</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>-279261241</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>163</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>25</start>
+        <end>25</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>25</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>-596323483</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[2]/message"/>
+    <priority>HIGH</priority>
+    <key>148</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>10</start>
+        <end>10</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>10</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Javadoc</category>
+    <type>JavadocTypeCheck</type>
+    <contextHashCode>244709333</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>159</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>21</start>
+        <end>21</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>21</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>-1858976470</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>143</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>5</start>
+        <end>5</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>5</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>-158167570</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>175</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>13</start>
+        <end>13</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>13</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>769953476</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>161</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>23</start>
+        <end>23</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>23</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>239996012</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>142</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>4</start>
+        <end>4</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>4</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>-428033696</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>144</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>6</start>
+        <end>6</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>6</primaryLineNumber>
+    <fileName reference="../../warning[11]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>-1460133469</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>166</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>4</start>
+        <end>4</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>4</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>557954658</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[22]/message"/>
+    <priority>HIGH</priority>
+    <key>200</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>12</start>
+        <end>12</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>12</primaryLineNumber>
+    <fileName reference="../../warning[2]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning[2]/packageName"/>
+    <category>Whitespace</category>
+    <type>WhitespaceAroundCheck</type>
+    <contextHashCode>891455377</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/controller</pathName>
+    <primaryColumnStart>44</primaryColumnStart>
+    <primaryColumnEnd>44</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message>Parameter model should be final.</message>
+    <priority>HIGH</priority>
+    <key>206</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>12</start>
+        <end>12</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>12</primaryLineNumber>
+    <fileName reference="../../warning[2]/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning[2]/packageName"/>
+    <category>Checks</category>
+    <type>FinalParametersCheck</type>
+    <contextHashCode>891455377</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/controller</pathName>
+    <primaryColumnStart>103</primaryColumnStart>
+    <primaryColumnEnd>103</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>191</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>22</start>
+        <end>22</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>22</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>1526582447</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>189</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>20</start>
+        <end>20</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>20</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>1476004281</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>182</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>15</start>
+        <end>15</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>15</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>368060127</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+  <warning plugin="checkstyle@3.39">
+    <message reference="../../warning[4]/message"/>
+    <priority>HIGH</priority>
+    <key>170</key>
+    <lineRanges>
+      <range plugin="analysis-core@1.56">
+        <start>8</start>
+        <end>8</end>
+      </range>
+    </lineRanges>
+    <primaryLineNumber>8</primaryLineNumber>
+    <fileName reference="../../warning/fileName"/>
+    <moduleName reference="../../warning/moduleName"/>
+    <packageName reference="../../warning/packageName"/>
+    <category>Regexp</category>
+    <type>RegexpSinglelineCheck</type>
+    <contextHashCode>-696860603</contextHashCode>
+    <origin>checkstyle</origin>
+    <pathName>src/main/java/com/javahash/spring/config</pathName>
+    <primaryColumnStart>0</primaryColumnStart>
+    <primaryColumnEnd>0</primaryColumnEnd>
+  </warning>
+</annotation-array>

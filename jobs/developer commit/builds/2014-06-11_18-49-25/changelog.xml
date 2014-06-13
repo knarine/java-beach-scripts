@@ -1,0 +1,9 @@
+commit feae9bad168179ef9ab35ff6f8ffc0900d644092
+tree c5a58fa7dd7041391567707b47c4c6d26140eff4
+parent 9639b69eca1e053ece29c17d19c5f5ccb7ee0a3a
+author Marlon Joseph <mjoseph@medullan.com> 1402512118 -0400
+committer Marlon Joseph <mjoseph@medullan.com> 1402512118 -0400
+
+    Added "is my name".
+
+:100644 100644 8c1191f338f545e60874bbc55dc559b340d7d8c1 b04c3702d4224e3dcb8ccac16fede216759cef39 M	src/main/java/com/javahash/spring/controller/HelloWorldController.java

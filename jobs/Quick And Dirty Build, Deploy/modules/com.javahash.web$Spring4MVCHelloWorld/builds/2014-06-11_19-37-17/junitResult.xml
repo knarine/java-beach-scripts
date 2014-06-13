@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result>
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/jobs/Quick And Dirty Build, Deploy/workspace/target/surefire-reports/TEST-com.javahash.spring.controller.HelloControllerTest.xml</file>
+      <name>com.javahash.spring.controller.HelloControllerTest</name>
+      <duration>0.017</duration>
+      <cases>
+        <case>
+          <duration>0.017</duration>
+          <className>com.javahash.spring.controller.HelloControllerTest</className>
+          <testName>very_simple_unit_test</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.017</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

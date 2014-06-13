@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<org.jenkinsci.plugins.ghprb.GhprbTrigger_-DescriptorImpl plugin="ghprb@1.12">
+  <serverAPIUrl>https://api.github.com</serverAPIUrl>
+  <username></username>
+  <password></password>
+  <accessToken>648298e600735618fc084ae27ab06d62826c0b0d</accessToken>
+  <adminlist>knarine</adminlist>
+  <publishedURL></publishedURL>
+  <requestForTestingPhrase>Can one of the admins verify this patch?</requestForTestingPhrase>
+  <whitelistPhrase>.*add\W+to\W+whitelist.*</whitelistPhrase>
+  <okToTestPhrase>.*ok\W+to\W+test.*</okToTestPhrase>
+  <retestPhrase>.*test\W+this\W+please.*</retestPhrase>
+  <cron>H/5 * * * *</cron>
+  <useComments>true</useComments>
+  <logExcerptLines>0</logExcerptLines>
+  <unstableAs>FAILURE</unstableAs>
+  <autoCloseFailedPullRequests>false</autoCloseFailedPullRequests>
+  <msgSuccess>Test PASSed.</msgSuccess>
+  <msgFailure>Test FAILed.</msgFailure>
+  <jobs>
+    <entry>
+      <string>Test 2</string>
+      <concurrent-hash-map>
+        <entry>
+          <int>5</int>
+          <org.jenkinsci.plugins.ghprb.GhprbPullRequest>
+            <id>5</id>
+            <author plugin="github-api@1.53">
+              <root>
+                <login>knarine</login>
+                <encodedAuthorization>token 648298e600735618fc084ae27ab06d62826c0b0d</encodedAuthorization>
+                <users>
+                  <entry>
+                    <string>knarine</string>
+                    <org.kohsuke.github.GHMyself>
+                      <root reference="../../../.."/>
+                      <login>knarine</login>
+                      <avatar__url>https://avatars.githubusercontent.com/u/2393918?</avatar__url>
+                      <url>https://api.github.com/users/knarine</url>
+                      <gravatar__id>e0d541c52867b5613e0371e418c8968f</gravatar__id>
+                      <id>2393918</id>
+                      <created__at>2012-09-21T14:20:08Z</created__at>
+                      <html__url>https://github.com/knarine</html__url>
+                      <followers>1</followers>
+                      <following>0</following>
+                      <public__repos>4</public__repos>
+                      <public__gists>0</public__gists>
+                    </org.kohsuke.github.GHMyself>
+                  </entry>
+                </users>
+                <orgs/>
+                <apiUrl>https://api.github.com</apiUrl>
+                <connector class="org.kohsuke.github.HttpConnector$1"/>
+              </root>
+              <login>knarine</login>
+              <avatar__url>https://avatars.githubusercontent.com/u/2393918?</avatar__url>
+              <url>https://api.github.com/users/knarine</url>
+              <gravatar__id>e0d541c52867b5613e0371e418c8968f</gravatar__id>
+              <id>2393918</id>
+              <created__at>2012-09-21T14:20:08Z</created__at>
+              <html__url>https://github.com/knarine</html__url>
+              <followers>1</followers>
+              <following>0</following>
+              <public__repos>4</public__repos>
+              <public__gists>0</public__gists>
+            </author>
+            <title>checking pull request - progress</title>
+            <updated>2014-06-13 20:40:07.0 UTC</updated>
+            <head>1347246b0401ce4a0719ef89c421fa233904ff95</head>
+            <mergeable>true</mergeable>
+            <reponame>knarine/java-beach</reponame>
+            <target>develop</target>
+            <source>feature1</source>
+            <url>https://github.com/knarine/java-beach/pull/5</url>
+            <shouldRun>false</shouldRun>
+            <accepted>true</accepted>
+            <triggered>false</triggered>
+          </org.jenkinsci.plugins.ghprb.GhprbPullRequest>
+        </entry>
+      </concurrent-hash-map>
+    </entry>
+  </jobs>
+</org.jenkinsci.plugins.ghprb.GhprbTrigger_-DescriptorImpl>

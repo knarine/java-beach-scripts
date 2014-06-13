@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UpstreamCause>
+          <upstreamProject>developer commit</upstreamProject>
+          <upstreamUrl>job/developer%20commit/</upstreamUrl>
+          <upstreamBuild>4</upstreamBuild>
+          <upstreamCauses>
+            <com.cloudbees.jenkins.GitHubPushCause plugin="github@1.8">
+              <pushedBy>marlon-medullan</pushedBy>
+            </com.cloudbees.jenkins.GitHubPushCause>
+          </upstreamCauses>
+        </hudson.model.Cause_-UpstreamCause>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.plugins.copyartifact.CopyArtifact_-EnvAction plugin="copyartifact@1.30"/>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>Spring4MVCHelloWorld-V-4.war</string>
+          <string>0a370cb6cf2953824bba90714356e05c</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <number>17</number>
+  <startTime>1402512651000</startTime>
+  <result>FAILURE</result>
+  <duration>327</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/jobs/deploy for automated acceptance testing/workspace</workspace>
+  <hudsonVersion>1.566</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

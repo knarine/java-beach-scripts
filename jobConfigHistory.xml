@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.plugins.jobConfigHistory.JobConfigHistory plugin="jobConfigHistory@2.6">
+  <historyRootDir></historyRootDir>
+  <maxHistoryEntries></maxHistoryEntries>
+  <maxEntriesPerPage></maxEntriesPerPage>
+  <maxDaysToKeepEntries></maxDaysToKeepEntries>
+  <saveItemGroupConfiguration>false</saveItemGroupConfiguration>
+  <skipDuplicateHistory>true</skipDuplicateHistory>
+  <excludePattern>queue|nodeMonitors|UpdateCenter|global-build-stats</excludePattern>
+  <saveModuleConfiguration>true</saveModuleConfiguration>
+  <showBuildBadges>always</showBuildBadges>
+</hudson.plugins.jobConfigHistory.JobConfigHistory>
